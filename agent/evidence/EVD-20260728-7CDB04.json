@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260728-7CDB04",
+  "kind": "evidence",
+  "project_id": "pangea-os",
+  "title": "Pangea OS and AHP+ command reference PDF",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-28T03:41:46.079Z",
+  "updated_at": "2026-07-28T03:41:46.079Z",
+  "observed_at": "2026-07-28T03:41:46.079Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "9fd04a62d9123900615774017797f96281b384ad",
+  "tags": [],
+  "evidence_type": "artifact",
+  "locator": "output/pdf/pangea-os-ahp-plus-command-reference.pdf",
+  "result": "PASS",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

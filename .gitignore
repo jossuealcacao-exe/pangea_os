@@ -7,6 +7,7 @@ node_modules/
 coverage/
 dist/
 .pangea-backup/
+tmp/
 
 # Local website workspaces registered by Pangea/AHP+.
 # Keep their source repos independent from the Pangea OS root repo.

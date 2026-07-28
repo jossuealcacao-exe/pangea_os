@@ -8,9 +8,3 @@
 
 ## Commands
 - No package scripts detected.
-
-## Migration warnings
-- `_web-os`: Legacy Web Architect OS instructions can conflict with the Pangea root kernel.
-- `AGENTS.md`: Legacy Web Architect OS instructions can conflict with the Pangea root kernel.
-- `opencode.json`: Legacy Web Architect OS instructions can conflict with the Pangea root kernel.
-- `.opencode`: Legacy Web Architect OS instructions can conflict with the Pangea root kernel.
