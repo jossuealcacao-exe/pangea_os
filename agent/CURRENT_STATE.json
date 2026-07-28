@@ -1,12 +1,12 @@
 {
-  "project_id": "pangea-os",
-  "phase": "PLANNED",
-  "objective": "Bootstrap Pangea OS and register existing web projects",
-  "base_commit": null,
-  "working_tree": "UNKNOWN",
-  "next_action": "Run node scripts/pangea.mjs doctor, then scan the existing folder",
-  "updated_at": "2026-07-23T00:00:00Z",
-  "confidence": "USER_CONFIRMED",
+  "project_id": "jossue-portfolio",
+  "phase": "DISCOVERY",
+  "objective": "Understand and operate project jossue-portfolio",
+  "base_commit": "d9c8f95432591584ebb6f057f8cfac0730dc18fe",
+  "working_tree": "CLEAN",
+  "next_action": "Run /pangea bootstrap jossue-portfolio or inspect agent/projects/jossue-portfolio/PROJECT.md",
+  "updated_at": "2026-07-28T03:46:20.050Z",
+  "confidence": "VERIFIED",
   "blockers": [],
   "active_record_ids": []
 }
