@@ -1,0 +1,32 @@
+{
+  "project_id": "bloqio-site",
+  "name": "bloqio-site",
+  "path": "bloqio-site",
+  "status": "REGISTERED",
+  "detected": {
+    "type": "static",
+    "stack": [
+      "Static HTML"
+    ],
+    "package_name": "bloqio-site",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "markers": [
+      "package.json",
+      "index.html"
+    ],
+    "legacy_instructions": []
+  },
+  "git": {
+    "is_git": true,
+    "branch": "main",
+    "commit": "f82eaf8ac00e0a78b33cc4e906b2b25b8c2e2dd8",
+    "working_tree": "DIRTY",
+    "upstream": "origin/main",
+    "ahead": 9,
+    "behind": 0
+  },
+  "observed_at": "2026-07-25T02:06:39.732Z",
+  "confidence": "VERIFIED"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Web Architect OS",
+  "version": "2.1.0",
+  "date": "2026-07-22",
+  "language": "es-MX",
+  "owner": "Jossue Alcalá",
+  "source_documents": [
+    "reference/sources/DESIGN-SYSTEM-VINERIA.md",
+    "reference/MEMORIA_PROYECTO_VINERIA_COMPLETA.md"
+  ],
+  "platforms": {
+    "claude-code": {
+      "entry": "platforms/claude-code/CLAUDE.md",
+      "skills": ".claude/skills"
+    },
+    "cursor": {
+      "entry": "platforms/cursor/AGENTS.md",
+      "rules": ".cursor/rules"
+    },
+    "codex": {
+      "entry": "platforms/codex/AGENTS.md",
+      "skills": ".agents/skills"
+    },
+    "chatgpt": {
+      "entry": "platforms/chatgpt/PROJECT_INSTRUCTIONS.md",
+      "knowledge": [
+        "core",
+        "engines",
+        "shopify",
+        "reference"
+      ]
+    },
+    "opencode": {
+      "entry": "platforms/opencode/AGENTS.md",
+      "config": "platforms/opencode/opencode.json",
+      "skills": ".opencode/skills",
+      "commands": ".opencode/commands",
+      "agents": ".opencode/agents"
+    }
+  },
+  "commands": [
+    "web-architect",
+    "visual-design",
+    "shopify-architect",
+    "web-qa",
+    "ahp-handoff"
+  ]
+}

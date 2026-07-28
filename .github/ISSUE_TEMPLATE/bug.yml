@@ -1,0 +1,14 @@
+name: Pangea defect
+description: Report a reproducible defect with evidence
+title: "[BUG] "
+body:
+  - type: textarea
+    attributes:
+      label: Project and reproduction
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence and commit
+    validations:
+      required: true

@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0.0",
+  "projects": [
+    {
+      "project_id": "bloqio-site",
+      "name": "bloqio-site",
+      "path": "bloqio-site",
+      "status": "REGISTERED",
+      "detected": {
+        "type": "static",
+        "stack": [
+          "Static HTML"
+        ],
+        "package_name": "bloqio-site",
+        "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "markers": [
+          "package.json",
+          "index.html"
+        ],
+        "legacy_instructions": []
+      },
+      "git": {
+        "is_git": true,
+        "branch": "main",
+        "commit": "f82eaf8ac00e0a78b33cc4e906b2b25b8c2e2dd8",
+        "working_tree": "DIRTY",
+        "upstream": "origin/main",
+        "ahead": 9,
+        "behind": 0
+      },
+      "observed_at": "2026-07-25T02:06:39.732Z",
+      "confidence": "VERIFIED"
+    },
+    {
+      "project_id": "jossue-portfolio",
+      "name": "jossue-portfolio",
+      "path": "jossue-portfolio",
+      "status": "REGISTERED",
+      "detected": {
+        "type": "astro",
+        "stack": [
+          "Astro",
+          "TypeScript"
+        ],
+        "package_name": "jossue-portfolio",
+        "scripts": {
+          "dev": "astro dev",
+          "build": "astro build",
+          "preview": "astro preview",
+          "check": "astro check",
+          "lint": "eslint .",
+          "test:links": "node scripts/test-links.mjs",
+          "test:routes": "node scripts/test-routes.mjs",
+          "test:e2e": "playwright test --config tests/playwright.config.ts",
+          "validate": "npm run check && npm run lint && npm run build && npm run test:routes && npm run test:links && npm run test:e2e",
+          "astro": "astro"
+        },
+        "markers": [
+          "package.json",
+          "astro.config.mjs"
+        ],
+        "legacy_instructions": []
+      },
+      "git": {
+        "is_git": true,
+        "branch": "master",
+        "commit": "27c65a965a7565d9f53d19cc251a4b6daa57d061",
+        "working_tree": "DIRTY",
+        "upstream": "origin/master",
+        "ahead": 0,
+        "behind": 0
+      },
+      "observed_at": "2026-07-25T02:06:39.761Z",
+      "confidence": "VERIFIED"
+    },
+    {
+      "project_id": "miawseo",
+      "name": "miawseo",
+      "path": "miawseo",
+      "status": "REGISTERED",
+      "detected": {
+        "type": "nextjs",
+        "stack": [
+          "Next.js",
+          "React",
+          "TypeScript"
+        ],
+        "package_name": "miawseo",
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "start:prod-preview": "next start -p 3200",
+          "lint": "next lint",
+          "typecheck": "tsc --noEmit"
+        },
+        "markers": [
+          "package.json",
+          "next.config.mjs"
+        ],
+        "legacy_instructions": []
+      },
+      "git": {
+        "is_git": true,
+        "branch": "main",
+        "commit": "81a34611260a631621b68a0f8df748588d841118",
+        "working_tree": "CLEAN",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 0
+      },
+      "observed_at": "2026-07-25T02:06:39.828Z",
+      "confidence": "VERIFIED"
+    },
+    {
+      "project_id": "tiendaonline",
+      "name": "tiendaonline",
+      "path": "tiendaonline",
+      "status": "NEEDS_MIGRATION_REVIEW",
+      "detected": {
+        "type": "shopify-theme",
+        "stack": [
+          "Shopify Liquid"
+        ],
+        "package_name": null,
+        "scripts": {},
+        "markers": [
+          "layout/theme.liquid"
+        ],
+        "legacy_instructions": [
+          {
+            "path": "_web-os",
+            "kind": "legacy-engine-directory",
+            "severity": "WARN",
+            "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+          },
+          {
+            "path": "AGENTS.md",
+            "kind": "nested-agent-entry",
+            "severity": "WARN",
+            "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+          },
+          {
+            "path": "opencode.json",
+            "kind": "nested-opencode-config",
+            "severity": "WARN",
+            "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+          },
+          {
+            "path": ".opencode",
+            "kind": "nested-opencode-adapter",
+            "severity": "WARN",
+            "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+          }
+        ]
+      },
+      "git": {
+        "is_git": true,
+        "branch": "master",
+        "commit": null,
+        "working_tree": "DIRTY",
+        "upstream": null,
+        "ahead": null,
+        "behind": null
+      },
+      "observed_at": "2026-07-25T02:06:39.847Z",
+      "confidence": "VERIFIED"
+    },
+    {
+      "project_id": "vineria",
+      "name": "vineria",
+      "path": "vineria",
+      "status": "REGISTERED",
+      "detected": {
+        "type": "vite",
+        "stack": [
+          "Vite",
+          "React",
+          "TypeScript"
+        ],
+        "package_name": "vineria",
+        "scripts": {
+          "dev": "vite",
+          "build": "tsc -b && vite build",
+          "preview": "vite preview",
+          "typecheck": "tsc -b --pretty false",
+          "lint": "eslint .",
+          "test": "vitest run",
+          "test:watch": "vitest",
+          "validate:data": "vitest run src/data/grapes.test.ts",
+          "generate:research": "node --experimental-strip-types scripts/generate-research.ts"
+        },
+        "markers": [
+          "package.json",
+          "vite.config.ts",
+          "index.html"
+        ],
+        "legacy_instructions": []
+      },
+      "git": {
+        "is_git": true,
+        "branch": "main",
+        "commit": "e0a6dc325e05b44f4bc5a61d0d75e80461102c01",
+        "working_tree": "DIRTY",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 0
+      },
+      "observed_at": "2026-07-25T02:06:39.897Z",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "updated_at": "2026-07-25T02:06:39.897Z"
+}

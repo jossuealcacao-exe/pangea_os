@@ -1,0 +1,1 @@
+No guardes secretos en el repositorio ni en `/agent`. Los agentes no pueden hacer push, deploy, pagos, cambios live o acciones destructivas sin autorización explícita. Reporta vulnerabilidades por canal privado.

@@ -1,0 +1,32 @@
+{
+  "name": "Pangea OS",
+  "version": "1.0.0",
+  "date": "2026-07-23",
+  "author": "Jossue Alcalá",
+  "ahp_plus": "1.0.0",
+  "repository": "https://github.com/jossuealcacao-exe/pangea_os",
+  "platforms": [
+    "cursor",
+    "claude-code",
+    "opencode",
+    "codex",
+    "chatgpt",
+    "ollama"
+  ],
+  "source_hashes": {
+    "00_START_HERE(1).md": "3c09439cae7ab5f1f45efff24ff727d9219fdd4b9026f96040d2a66f7293f388",
+    "01_PROJECT_INSTRUCTIONS(1).md": "e3bc2c091eae85b1a51359102e6982b4d1f9ef18e678807a62c9a030b3732477",
+    "02_CORE_OS(1).md": "657f6ff1cd3fa74a3a0915f1ff6cd715f86f4382d33873b47652a62111478eb2",
+    "03_OPERATING_MODES(1).md": "ebc6b4fa1c03b6593e3d3ab865c643fc518f55f8aa83771ca0758ac2da7f4e12",
+    "04_OUTPUT_CONTRACTS.md": "8e6f643a7b0783a410c2fa936d6fcf1ba9d6875f00c27c38e1b82943fbb49987",
+    "05_PROMPT_TEMPLATES(1).md": "6e13efa9e54c9a52be3ad82ed993b196151ccb111fd3c32ce21a66359a17109a",
+    "06_QA_CHECKLIST(1).md": "c5ba8e8d50548340282842a7606d59dfbf0dc43b5ce62eff8148768f86fbead6",
+    "07_AHP_HANDOFF_PROTOCOL(1).md": "8cb54c3fb3f1467a6d11133dc74142c8a3222b390cb370e2545f07c9585b4eb2",
+    "08_PLATFORM_ADAPTERS(1).md": "5cff700bd1a7d6cd0641a8fc0679c436b20f1040b65da72b0376527ab78a8816",
+    "09_COMMANDS_AND_TRIGGERS(1).md": "97c857c88c18e659dfeb3e546c1fa4d1a3ac3756c4104e383289e088c7542667",
+    "10_CHANGELOG.md": "386cb0d7420e1764f1b2c551413af1b55ea9ffb3e95cd49733f47d835be7d452",
+    "guia_maestra_prompts_bajo_margen_error.md": "f4a1f00654af672f5a4942f12c0043349899bb6a0628dd4e060cbde54ca71e3e",
+    "DESIGN-SYSTEM.md": "04f88a2870f9034d81c0e80db16e471081b00b3afde745658ecce88ff74be8fb",
+    "Web-Architect-OS-v2.1.0.zip": "a8de17694702beb1b670dda66e4c7359548d2eafad30141aa1677d3142bc9a79"
+  }
+}

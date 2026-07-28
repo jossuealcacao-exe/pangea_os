@@ -1,0 +1,12 @@
+{
+  "project_id": "replace",
+  "name": "replace",
+  "path": "replace",
+  "status": "DISCOVERY",
+  "detected": {},
+  "source_of_truth": [],
+  "invariants": [],
+  "known_risks": [],
+  "observed_at": null,
+  "confidence": "UNVERIFIED"
+}

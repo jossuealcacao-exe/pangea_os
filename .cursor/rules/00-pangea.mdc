@@ -1,0 +1,6 @@
+---
+description: Pangea OS universal kernel and AHP+ continuity
+alwaysApply: true
+---
+
+Read `AGENTS.md`. Resolve one active project, read its AHP+ state, inspect Git and load engines lazily. Never claim unobserved execution or perform high-risk actions without approval.

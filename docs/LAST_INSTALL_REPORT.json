@@ -1,0 +1,22 @@
+{
+  "mode": "APPLY",
+  "version": "1.0.0",
+  "source": "/Users/eljochuaxd/Downloads/Pangea-OS-v1.0.0",
+  "target": "/Users/eljochuaxd/Pangea OS",
+  "files_planned": 213,
+  "collisions": [
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "README.md",
+    "manifest.json",
+    "opencode.json"
+  ],
+  "skips": [],
+  "backup": "/Users/eljochuaxd/Pangea OS/.pangea-backup/install-2026-07-25T01-58-02-151Z",
+  "next": [
+    "node scripts/pangea.mjs doctor",
+    "node scripts/pangea.mjs scan .",
+    "node scripts/pangea.mjs conflicts",
+    "node tools/ahp-plus/ahp.mjs verify ."
+  ]
+}

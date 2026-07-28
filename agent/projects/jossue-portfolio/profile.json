@@ -1,0 +1,42 @@
+{
+  "project_id": "jossue-portfolio",
+  "name": "jossue-portfolio",
+  "path": "jossue-portfolio",
+  "status": "REGISTERED",
+  "detected": {
+    "type": "astro",
+    "stack": [
+      "Astro",
+      "TypeScript"
+    ],
+    "package_name": "jossue-portfolio",
+    "scripts": {
+      "dev": "astro dev",
+      "build": "astro build",
+      "preview": "astro preview",
+      "check": "astro check",
+      "lint": "eslint .",
+      "test:links": "node scripts/test-links.mjs",
+      "test:routes": "node scripts/test-routes.mjs",
+      "test:e2e": "playwright test --config tests/playwright.config.ts",
+      "validate": "npm run check && npm run lint && npm run build && npm run test:routes && npm run test:links && npm run test:e2e",
+      "astro": "astro"
+    },
+    "markers": [
+      "package.json",
+      "astro.config.mjs"
+    ],
+    "legacy_instructions": []
+  },
+  "git": {
+    "is_git": true,
+    "branch": "master",
+    "commit": "27c65a965a7565d9f53d19cc251a4b6daa57d061",
+    "working_tree": "DIRTY",
+    "upstream": "origin/master",
+    "ahead": 0,
+    "behind": 0
+  },
+  "observed_at": "2026-07-25T02:06:39.761Z",
+  "confidence": "VERIFIED"
+}

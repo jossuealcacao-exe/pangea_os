@@ -1,0 +1,39 @@
+{
+  "project_id": "miawseo",
+  "name": "miawseo",
+  "path": "miawseo",
+  "status": "REGISTERED",
+  "detected": {
+    "type": "nextjs",
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript"
+    ],
+    "package_name": "miawseo",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "start:prod-preview": "next start -p 3200",
+      "lint": "next lint",
+      "typecheck": "tsc --noEmit"
+    },
+    "markers": [
+      "package.json",
+      "next.config.mjs"
+    ],
+    "legacy_instructions": []
+  },
+  "git": {
+    "is_git": true,
+    "branch": "main",
+    "commit": "81a34611260a631621b68a0f8df748588d841118",
+    "working_tree": "CLEAN",
+    "upstream": "origin/main",
+    "ahead": 0,
+    "behind": 0
+  },
+  "observed_at": "2026-07-25T02:06:39.828Z",
+  "confidence": "VERIFIED"
+}

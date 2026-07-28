@@ -1,0 +1,28 @@
+{
+  "name": "pangea-os",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Universal multi-agent web engineering operating system",
+  "scripts": {
+    "doctor": "node scripts/pangea.mjs doctor",
+    "scan": "node scripts/pangea.mjs scan .",
+    "status": "node scripts/pangea.mjs status",
+    "validate": "node scripts/validate.mjs .",
+    "ahp:verify": "node tools/ahp-plus/ahp.mjs verify .",
+    "ahp:brief": "node tools/ahp-plus/ahp.mjs brief .",
+    "test": "node scripts/validate.mjs .",
+    "conflicts": "node scripts/pangea.mjs conflicts",
+    "sync:status": "node scripts/pangea.mjs sync-status",
+    "legacy:plan": "node scripts/migrate-legacy.mjs .",
+    "legacy:apply": "node scripts/migrate-legacy.mjs . --apply",
+    "ahp:status": "node tools/ahp-plus/ahp.mjs status .",
+    "ahp:context": "node tools/ahp-plus/ahp.mjs context .",
+    "checksums": "node scripts/generate-checksums.mjs ."
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Jossue Alcalá",
+  "engines": {
+    "node": ">=20"
+  }
+}

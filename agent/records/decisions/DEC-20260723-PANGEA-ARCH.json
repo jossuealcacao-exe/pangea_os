@@ -1,0 +1,25 @@
+{
+  "id": "DEC-20260723-PANGEA-ARCH",
+  "kind": "decision",
+  "project_id": "pangea-os",
+  "title": "Use a platform-neutral kernel with thin native adapters",
+  "description": "Canonical behavior lives in AGENTS.md, core and AHP+; platform files adapt loading and commands without redefining meaning.",
+  "status": "ACCEPTED",
+  "confidence": "USER_CONFIRMED",
+  "created_at": "2026-07-23T00:00:00Z",
+  "updated_at": "2026-07-23T00:00:00Z",
+  "actor": {
+    "name": "Jossue Alcalá",
+    "platform": "human",
+    "model": "n/a"
+  },
+  "source_refs": [
+    "AUTHORSHIP.md",
+    "core/01_ARCHITECTURE.md"
+  ],
+  "base_commit": null,
+  "tags": [
+    "architecture",
+    "multiplatform"
+  ]
+}

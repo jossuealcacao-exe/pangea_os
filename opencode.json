@@ -1,0 +1,32 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "AGENTS.md",
+    "core/00_CONSTITUTION.md",
+    "core/05_AUTHORITY_AND_SAFETY.md",
+    "agent/INDEX.md"
+  ],
+  "permission": {
+    "read": "allow",
+    "edit": "ask",
+    "external_directory": "deny",
+    "webfetch": "ask",
+    "websearch": "ask",
+    "skill": {
+      "*": "allow"
+    },
+    "bash": {
+      "*": "ask",
+      "git status*": "allow",
+      "git diff*": "allow",
+      "git log*": "allow",
+      "node scripts/pangea.mjs*": "allow",
+      "node tools/ahp-plus/ahp.mjs*": "allow",
+      "git push*": "deny",
+      "git reset --hard*": "deny",
+      "git clean*": "deny",
+      "rm -rf*": "deny",
+      "sudo *": "deny"
+    }
+  }
+}

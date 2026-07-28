@@ -1,0 +1,54 @@
+{
+  "project_id": "tiendaonline",
+  "name": "tiendaonline",
+  "path": "tiendaonline",
+  "status": "NEEDS_MIGRATION_REVIEW",
+  "detected": {
+    "type": "shopify-theme",
+    "stack": [
+      "Shopify Liquid"
+    ],
+    "package_name": null,
+    "scripts": {},
+    "markers": [
+      "layout/theme.liquid"
+    ],
+    "legacy_instructions": [
+      {
+        "path": "_web-os",
+        "kind": "legacy-engine-directory",
+        "severity": "WARN",
+        "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+      },
+      {
+        "path": "AGENTS.md",
+        "kind": "nested-agent-entry",
+        "severity": "WARN",
+        "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+      },
+      {
+        "path": "opencode.json",
+        "kind": "nested-opencode-config",
+        "severity": "WARN",
+        "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+      },
+      {
+        "path": ".opencode",
+        "kind": "nested-opencode-adapter",
+        "severity": "WARN",
+        "reason": "Legacy Web Architect OS instructions can conflict with the Pangea root kernel."
+      }
+    ]
+  },
+  "git": {
+    "is_git": true,
+    "branch": "master",
+    "commit": null,
+    "working_tree": "DIRTY",
+    "upstream": null,
+    "ahead": null,
+    "behind": null
+  },
+  "observed_at": "2026-07-25T02:06:39.847Z",
+  "confidence": "VERIFIED"
+}

@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+coverage/
+dist/
+.pangea-backup/
+
+# Local website workspaces registered by Pangea/AHP+.
+# Keep their source repos independent from the Pangea OS root repo.
+/bloqio-site/
+/jossue-portfolio/
+/miawseo/
+/tiendaonline/
+/vineria/

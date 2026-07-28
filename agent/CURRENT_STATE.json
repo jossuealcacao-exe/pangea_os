@@ -1,0 +1,12 @@
+{
+  "project_id": "pangea-os",
+  "phase": "PLANNED",
+  "objective": "Bootstrap Pangea OS and register existing web projects",
+  "base_commit": null,
+  "working_tree": "UNKNOWN",
+  "next_action": "Run node scripts/pangea.mjs doctor, then scan the existing folder",
+  "updated_at": "2026-07-23T00:00:00Z",
+  "confidence": "USER_CONFIRMED",
+  "blockers": [],
+  "active_record_ids": []
+}

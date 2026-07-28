@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Pangea OS"
+message: "Cite Pangea OS using the metadata below."
+type: software
+authors:
+  - family-names: "Alcalá"
+    given-names: "Jossue"
+version: 1.0.0
+date-released: 2026-07-23
+repository-code: "https://github.com/jossuealcacao-exe/pangea_os"
+license: "LicenseRef-All-Rights-Reserved"
