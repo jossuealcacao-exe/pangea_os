@@ -1,0 +1,21 @@
+{
+  "id": "RISK-20260728-32FDE9",
+  "kind": "risk",
+  "project_id": "jossue-portfolio",
+  "title": "Casa Tecalli captures require authorized Shopify store",
+  "description": "The portfolio retains three explicit evidence placeholders because no authorized Shopify development store is available for legitimate captures.",
+  "status": "OPEN",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-28T06:01:02.076Z",
+  "updated_at": "2026-07-28T06:01:02.076Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "jossue-portfolio/src/content.config.ts"
+  ],
+  "base_commit": "55f05c14b4925b98a9a155844ce96a7a2846e40e",
+  "tags": []
+}

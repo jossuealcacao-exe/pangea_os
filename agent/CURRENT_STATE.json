@@ -1,12 +1,18 @@
 {
-  "project_id": "jossue-portfolio",
-  "phase": "DISCOVERY",
-  "objective": "Understand and operate project jossue-portfolio",
-  "base_commit": "d9c8f95432591584ebb6f057f8cfac0730dc18fe",
-  "working_tree": "CLEAN",
-  "next_action": "Run /pangea bootstrap jossue-portfolio or inspect agent/projects/jossue-portfolio/PROJECT.md",
-  "updated_at": "2026-07-28T03:46:20.050Z",
+  "project_id": "vineria",
+  "phase": "COMPLETED",
+  "objective": "Deliver the Vineria static editorial wine guide and prepare public Railway deployment",
+  "base_commit": "2fa44e619faf48ce5fbef21302d54dfebdfdd579",
+  "working_tree": "DIRTY",
+  "next_action": "Push commit 503ff38 to origin/main, then create the Railway service and generate its public domain",
+  "updated_at": "2026-07-28T21:50:08.384Z",
   "confidence": "VERIFIED",
-  "blockers": [],
-  "active_record_ids": []
+  "blockers": [
+    "Commit 503ff38 is local and has not been pushed because the environment denied git push.",
+    "Railway service creation and public domain generation remain external actions."
+  ],
+  "active_record_ids": [
+    "QA-20260728-B171DC",
+    "RISK-20260728-6F96EC"
+  ]
 }

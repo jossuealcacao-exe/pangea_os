@@ -1,0 +1,29 @@
+{
+  "id": "RISK-20260728-6F96EC",
+  "kind": "risk",
+  "project_id": "vineria",
+  "title": "Vineria external publication pending",
+  "description": "",
+  "status": "COMPLETED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-28T21:50:26.767Z",
+  "updated_at": "2026-07-28T21:53:53.912Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260728-882525"
+  ],
+  "base_commit": "2fa44e619faf48ce5fbef21302d54dfebdfdd579",
+  "tags": [],
+  "closed_at": "2026-07-28T21:53:53.913Z",
+  "closed_by": {
+    "name": "AI agent",
+    "platform": "unknown",
+    "model": "unknown"
+  },
+  "close_base_commit": "2fa44e619faf48ce5fbef21302d54dfebdfdd579",
+  "close_reason": "Commit pushed and Railway public deployment verified"
+}

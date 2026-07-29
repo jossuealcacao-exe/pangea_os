@@ -2,7 +2,7 @@
   "project_id": "vineria",
   "name": "vineria",
   "path": "vineria",
-  "status": "REGISTERED",
+  "status": "COMPLETED",
   "detected": {
     "type": "vite",
     "stack": [
@@ -32,12 +32,12 @@
   "git": {
     "is_git": true,
     "branch": "main",
-    "commit": "e0a6dc325e05b44f4bc5a61d0d75e80461102c01",
-    "working_tree": "DIRTY",
+    "commit": "503ff3820ff4c3f83ad8777600f737a940c3efdd",
+    "working_tree": "CLEAN",
     "upstream": "origin/main",
-    "ahead": 0,
+    "ahead": 1,
     "behind": 0
   },
-  "observed_at": "2026-07-28T03:38:01.459Z",
+  "observed_at": "2026-07-28T21:50:20.000Z",
   "confidence": "VERIFIED"
 }

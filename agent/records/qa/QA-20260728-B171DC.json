@@ -1,0 +1,21 @@
+{
+  "id": "QA-20260728-B171DC",
+  "kind": "qa",
+  "project_id": "vineria",
+  "title": "Vineria local completion gate",
+  "description": "",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-28T21:50:26.681Z",
+  "updated_at": "2026-07-28T21:50:26.681Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260728-810026"
+  ],
+  "base_commit": "2fa44e619faf48ce5fbef21302d54dfebdfdd579",
+  "tags": []
+}

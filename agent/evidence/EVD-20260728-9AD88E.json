@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260728-9AD88E",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "jossue-portfolio commercial redesign visual review",
+  "description": "Current home, work, services, and Bloqio CRO Apps pages reviewed at 390 and 1440 CSS pixels after motion and lazy media settled. Hierarchy, card proportions, product staging, typography, stack treatment, and responsive composition passed.",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-28T20:50:28.862Z",
+  "updated_at": "2026-07-28T20:50:28.862Z",
+  "observed_at": "2026-07-28T20:50:28.862Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "55f05c14b4925b98a9a155844ce96a7a2846e40e",
+  "tags": [],
+  "evidence_type": "screenshot",
+  "locator": "jossue-portfolio/playwright-report/redesign-review",
+  "result": "PASS",
+  "limitations": "Screenshots are local gitignored QA artifacts.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

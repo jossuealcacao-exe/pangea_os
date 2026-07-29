@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260728-2FB752",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "jossue-portfolio browser QA blocked",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-28T05:26:14.191Z",
+  "updated_at": "2026-07-28T05:26:14.191Z",
+  "observed_at": "2026-07-28T05:26:14.191Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "55f05c14b4925b98a9a155844ce96a7a2846e40e",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "jossue-portfolio: npm run test:e2e",
+  "result": "FAIL",
+  "limitations": "Chromium executable unavailable; 119 tests discovered and none executed.",
+  "artifact_sha256": null,
+  "exit_code": 1
+}
