@@ -1,18 +1,17 @@
 {
-  "project_id": "vineria",
+  "project_id": "tiendaonline",
   "phase": "COMPLETED",
-  "objective": "Deliver the Vineria static editorial wine guide and prepare public Railway deployment",
-  "base_commit": "2fa44e619faf48ce5fbef21302d54dfebdfdd579",
+  "objective": "Deliver the Casa Tecalli Shopify Liquid theme and prepare a shareable development-store preview",
+  "base_commit": "5f9f395280a9821f4bf9f8eb0cdbe13da1d483cf",
   "working_tree": "DIRTY",
-  "next_action": "Push commit 503ff38 to origin/main, then create the Railway service and generate its public domain",
-  "updated_at": "2026-07-28T21:50:08.384Z",
+  "next_action": "Run shopify theme share --store bloqio-sandbox.myshopify.com after explicit upload approval",
+  "updated_at": "2026-07-29T00:58:10.561Z",
   "confidence": "VERIFIED",
   "blockers": [
-    "Commit 503ff38 is local and has not been pushed because the environment denied git push.",
-    "Railway service creation and public domain generation remain external actions."
+    "The shareable unpublished theme has not yet been uploaded to bloqio-sandbox.myshopify.com."
   ],
   "active_record_ids": [
-    "QA-20260728-B171DC",
-    "RISK-20260728-6F96EC"
+    "QA-20260729-22BD18",
+    "RISK-20260729-9F4A31"
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-15BA50",
+  "kind": "evidence",
+  "project_id": "tiendaonline",
+  "title": "Tiendaonline demo store connection",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T00:57:49.816Z",
+  "updated_at": "2026-07-29T00:57:49.816Z",
+  "observed_at": "2026-07-29T00:57:49.816Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "5f9f395280a9821f4bf9f8eb0cdbe13da1d483cf",
+  "tags": [],
+  "evidence_type": "command",
+  "locator": "tiendaonline: shopify theme list --store bloqio-sandbox.myshopify.com",
+  "result": "PASS",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-4ACEA7",
+  "kind": "evidence",
+  "project_id": "tiendaonline",
+  "title": "Tiendaonline preview infrastructure",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T00:57:49.887Z",
+  "updated_at": "2026-07-29T00:57:49.887Z",
+  "observed_at": "2026-07-29T00:57:49.887Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "5f9f395280a9821f4bf9f8eb0cdbe13da1d483cf",
+  "tags": [],
+  "evidence_type": "file",
+  "locator": "tiendaonline/shopify.theme.toml and tiendaonline/.shopifyignore",
+  "result": "PASS",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

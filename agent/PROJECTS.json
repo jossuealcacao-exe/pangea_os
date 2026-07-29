@@ -37,7 +37,7 @@
       "project_id": "jossue-portfolio",
       "name": "jossue-portfolio",
       "path": "jossue-portfolio",
-      "status": "REGISTERED",
+      "status": "COMPLETED",
       "detected": {
         "type": "astro",
         "stack": [
@@ -134,13 +134,13 @@
       "git": {
         "is_git": true,
         "branch": "master",
-        "commit": null,
-        "working_tree": "DIRTY",
+        "commit": "f6f9009",
+        "working_tree": "CLEAN",
         "upstream": null,
         "ahead": null,
         "behind": null
       },
-      "observed_at": "2026-07-28T03:38:01.438Z",
+      "observed_at": "2026-07-29T00:57:49.679Z",
       "confidence": "VERIFIED"
     },
     {
