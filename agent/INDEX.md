@@ -5,12 +5,12 @@
 - Objective: Deliver the Casa Tecalli Shopify Liquid theme and prepare a shareable development-store preview
 - Confidence: VERIFIED
 - Branch: main
-- Commit: 5f9f395280a9821f4bf9f8eb0cdbe13da1d483cf
+- Commit: 8a848fabb3fa3502b0855993426d09daad44721c
 - Working tree: DIRTY
-- Next action: Run shopify theme share --store bloqio-sandbox.myshopify.com after explicit upload approval
+- Next action: Share preview URL https://bloqio-sandbox.myshopify.com?preview_theme_id=135230357559 or open editor https://bloqio-sandbox.myshopify.com/admin/themes/135230357559/editor
 
 ## Active records
-- [risk/OPEN/VERIFIED] RISK-20260729-9F4A31: Tiendaonline preview upload pending
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-9EE70B: Tiendaonline Shopify preview upload
 - [qa/PASS/VERIFIED] QA-20260729-22BD18: Tiendaonline local completion gate
 - [evidence/OBSERVED/VERIFIED] EVD-20260729-4ACEA7: Tiendaonline preview infrastructure
 - [evidence/OBSERVED/VERIFIED] EVD-20260729-15BA50: Tiendaonline demo store connection

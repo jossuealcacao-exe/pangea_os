@@ -1,0 +1,28 @@
+{
+  "id": "EVD-20260729-9EE70B",
+  "kind": "evidence",
+  "project_id": "tiendaonline",
+  "title": "Tiendaonline Shopify preview upload",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T01:03:18.979Z",
+  "updated_at": "2026-07-29T01:03:18.979Z",
+  "observed_at": "2026-07-29T01:03:18.979Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "user:approved-shopify-theme-share"
+  ],
+  "base_commit": "8a848fabb3fa3502b0855993426d09daad44721c",
+  "tags": [],
+  "evidence_type": "url",
+  "locator": "https://bloqio-sandbox.myshopify.com?preview_theme_id=135230357559",
+  "result": "shopify theme share uploaded theme elegant-look (#135230357559) to bloqio-sandbox.myshopify.com and returned preview/editor URLs",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

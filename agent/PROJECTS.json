@@ -118,7 +118,7 @@
       "project_id": "tiendaonline",
       "name": "tiendaonline",
       "path": "tiendaonline",
-      "status": "REGISTERED",
+      "status": "COMPLETED",
       "detected": {
         "type": "shopify-theme",
         "stack": [
@@ -187,5 +187,5 @@
       "confidence": "VERIFIED"
     }
   ],
-  "updated_at": "2026-07-28T21:50:20.000Z"
+  "updated_at": "2026-07-29T01:03:40.189Z"
 }

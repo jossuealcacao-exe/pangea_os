@@ -2,16 +2,13 @@
   "project_id": "tiendaonline",
   "phase": "COMPLETED",
   "objective": "Deliver the Casa Tecalli Shopify Liquid theme and prepare a shareable development-store preview",
-  "base_commit": "5f9f395280a9821f4bf9f8eb0cdbe13da1d483cf",
+  "base_commit": "8a848fabb3fa3502b0855993426d09daad44721c",
   "working_tree": "DIRTY",
-  "next_action": "Run shopify theme share --store bloqio-sandbox.myshopify.com after explicit upload approval",
-  "updated_at": "2026-07-29T00:58:10.561Z",
+  "next_action": "Share preview URL https://bloqio-sandbox.myshopify.com?preview_theme_id=135230357559 or open editor https://bloqio-sandbox.myshopify.com/admin/themes/135230357559/editor",
+  "updated_at": "2026-07-29T01:03:40.189Z",
   "confidence": "VERIFIED",
-  "blockers": [
-    "The shareable unpublished theme has not yet been uploaded to bloqio-sandbox.myshopify.com."
-  ],
+  "blockers": [],
   "active_record_ids": [
-    "QA-20260729-22BD18",
-    "RISK-20260729-9F4A31"
+    "QA-20260729-22BD18"
   ]
 }
