@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-C2B344",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "jossue-portfolio icon and rectilinear UI QA",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T01:29:03.786Z",
+  "updated_at": "2026-07-29T01:29:03.786Z",
+  "observed_at": "2026-07-29T01:29:03.786Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "cd jossue-portfolio && npm run check && npm run lint && npm run build && npm run test:routes && npm run test:links && npm run test:e2e; Playwright visual checks for stack fallbacks, straight radii, and active case tabs",
+  "result": "PASS: Astro check 0 diagnostics; ESLint passed; build generated 29 pages; 29 routes plus robots/sitemap passed; 485 local links passed; 168 Playwright tests passed; no stack monogram fallbacks remained across 11 reviewed routes; active case tabs computed transparent, font-weight 800, transform none, radius 0.",
+  "limitations": "PUBLIC_SITE_URL was unset, so local builds used the explicit portfolio.invalid fallback. Some stack labels without an official or directly related icon now render text-only instead of an invented monogram.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

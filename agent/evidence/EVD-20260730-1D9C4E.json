@@ -1,0 +1,32 @@
+{
+  "id": "EVD-20260730-1D9C4E",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Product carousel card scale and scrollbar refinement",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-30T03:58:21.000Z",
+  "updated_at": "2026-07-30T03:58:21.000Z",
+  "observed_at": "2026-07-30T03:58:21.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "portfolio",
+    "carousel",
+    "mobile",
+    "scrollbar",
+    "visual-polish"
+  ],
+  "evidence_type": "file",
+  "locator": "jossue-portfolio/src/styles/redesign.css; jossue-portfolio/test-results/product-carousel-home-428-refined.png",
+  "result": "PASS: Product card carousel columns are smaller on mobile, card borders are lighter, edge gutter is reduced, and the horizontal scrollbar renders as a thin minimal indicator.",
+  "limitations": "Local network visual verification only; no deployment or publishing was performed.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

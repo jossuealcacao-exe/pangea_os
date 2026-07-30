@@ -1,0 +1,21 @@
+{
+  "id": "QA-20260729-129E84",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "Portfolio carousel and visual UX update gate",
+  "description": "Hero carousel, brand-led project covers, Zappicon regular icon integration, ecommerce diagnostic contact graphics, full validation, and LAN mobile server verified.",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T19:50:35.253Z",
+  "updated_at": "2026-07-29T19:50:35.253Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260729-E90A60"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": []
+}

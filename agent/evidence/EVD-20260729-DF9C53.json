@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-DF9C53",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Pangea doctor and jossue-portfolio validation",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T19:19:27.346Z",
+  "updated_at": "2026-07-29T19:19:27.346Z",
+  "observed_at": "2026-07-29T19:19:27.346Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "node scripts/pangea.mjs doctor; node tools/ahp-plus/ahp.mjs verify .; cd jossue-portfolio && npm run validate",
+  "result": "PASS: Pangea doctor alive true with required files OK, AHP+ verify OK with 48 checked files and no warnings/errors, 5 projects detected, root git main at a8472f2d02e2cba404ba410b5e5f9da507db5dbd DIRTY; jossue-portfolio validate passed Astro check 0 diagnostics, ESLint, Astro build 29 pages, route check 29 routes plus robots/sitemap, link check 487 local links, and Playwright 168/168.",
+  "limitations": "PUBLIC_SITE_URL was unset, so Astro used the portfolio.invalid fallback. Root and active nested project working trees were dirty before this doctor run. Node emitted FORCE_COLOR/NO_COLOR warnings during Playwright, but tests passed.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

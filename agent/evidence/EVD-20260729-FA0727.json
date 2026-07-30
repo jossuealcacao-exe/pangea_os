@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-FA0727",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Mobile validation server exposed on LAN",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T19:23:50.842Z",
+  "updated_at": "2026-07-29T19:23:50.842Z",
+  "observed_at": "2026-07-29T19:23:50.842Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "cd jossue-portfolio && npx astro dev stop; npx astro dev --host 0.0.0.0 --port 4321 --background; curl -I http://127.0.0.1:4321/es/; curl -I http://192.168.100.110:4321/es/; lsof -nP -iTCP:4321 -sTCP:LISTEN",
+  "result": "PASS: restarted Astro background dev server for jossue-portfolio on port 4321 with host 0.0.0.0. Astro status reports Network URL http://192.168.100.110:4321/. HTTP HEAD returned 200 OK for http://127.0.0.1:4321/es/ and http://192.168.100.110:4321/es/. lsof shows node pid 25042 listening on TCP *:4321.",
+  "limitations": "Requires mobile device to be on the same Wi-Fi/LAN as this Mac. Firewall or network isolation may block access from the phone even though local LAN HTTP checks pass.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

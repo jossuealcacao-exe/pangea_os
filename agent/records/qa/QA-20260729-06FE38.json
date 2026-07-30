@@ -1,0 +1,21 @@
+{
+  "id": "QA-20260729-06FE38",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "jossue-portfolio project evidence integration gate",
+  "description": "Project screenshots, responsive gallery behavior, PageSpeed/LCP diagrams, project links, home graphics, footer information architecture, active tab alignment, static build, routes, links, and full e2e suite verified.",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T01:58:43.158Z",
+  "updated_at": "2026-07-29T01:58:43.158Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260729-E5AB1E"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": []
+}

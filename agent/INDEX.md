@@ -1,18 +1,59 @@
 # AHP+ Operational Brief
 
-- Project: tiendaonline
-- Phase: COMPLETED
-- Objective: Deliver the Casa Tecalli Shopify Liquid theme and prepare a shareable development-store preview
+- Project: jossue-portfolio
+- Phase: VERIFIED
+- Objective: Portfolio committed for AHP+ handoff
 - Confidence: VERIFIED
 - Branch: main
-- Commit: 9186e9f4d8e410dcb8178376a20b9dd0e01b9795
-- Working tree: CLEAN
-- Next action: Share preview URL https://bloqio-sandbox.myshopify.com?preview_theme_id=135230357559 or open editor https://bloqio-sandbox.myshopify.com/admin/themes/135230357559/editor
+- Commit: a8472f2d02e2cba404ba410b5e5f9da507db5dbd
+- Working tree: DIRTY
+- Next action: Continue from jossue-portfolio commit 47adced0d8806bcbd8501b27a365c00f9da4e1cc and handoff HOF-20260730-C8F8B3; review http://192.168.100.110:4321/es/ on mobile if visual QA continues.
 
 ## Active records
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-9EE70B: Tiendaonline Shopify preview upload
-- [qa/PASS/VERIFIED] QA-20260729-22BD18: Tiendaonline local completion gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-4ACEA7: Tiendaonline preview infrastructure
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-15BA50: Tiendaonline demo store connection
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-4FBF27: Tiendaonline completed commit
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-34FA87: Tiendaonline Theme Check
+- [qa/PASS/VERIFIED] QA-20260730-C5D9E0: Product card width, cover responsiveness and summary compactness validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-82A6C1: Product cards widened with responsive covers and compact summaries
+- [qa/PASS/VERIFIED] QA-20260730-3A8F52: Product carousel scale and scrollbar validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-1D9C4E: Product carousel card scale and scrollbar refinement
+- [qa/PASS/VERIFIED] QA-20260730-B7E24A: Product carousel, brand centering and heading rhythm validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-6F2C91: Product card carousel and heading alignment updates
+- [qa/PASS/VERIFIED] QA-20260730-57AC1E: AHP+ logo integration validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-A4E8C9: AHP+ logo integrated into portfolio
+- [qa/PASS/VERIFIED] QA-20260730-D2B6A9: AHP+ breadcrumb and diagram validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-F1D7B3: AHP+ breadcrumb and diagram readability fixes
+- [qa/PASS/VERIFIED] QA-20260730-8E2BFA: AHP+ portfolio case validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-C94A1D: AHP+ project integrated into portfolio
+- [qa/PASS/VERIFIED] QA-20260730-4C97E1: Home refinements validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-B8F3A2: Home hero, selected work and header refinements
+- [qa/PASS/VERIFIED] QA-20260730-6716A3: Hero carousel photo asset QA
+- [evidence/OBSERVED/VERIFIED] EVD-20260730-A91EA8: Hero carousel photographic assets generated and integrated
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-DC91F0: Hero slide photo generation note created
+- [qa/PASS/VERIFIED] QA-20260729-64DE22: Portfolio mobile visual polish gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-A6D42B: Portfolio mobile feedback polish for hero, covers, profile, footer, and commercial copy
+- [qa/PASS/VERIFIED] QA-20260729-B75E2A: Portfolio mobile feedback revision gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-F4C8D1: Portfolio hero gallery, logo-only product covers, and capability icon correction
+- [qa/PASS/VERIFIED] QA-20260729-129E84: Portfolio carousel and visual UX update gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-E90A60: Portfolio hero carousel, brand covers, Zappicon UX icons, and diagnostic contact graphics
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-FA0727: Mobile validation server exposed on LAN
+- [qa/PASS/VERIFIED] QA-20260729-5E7BB1: Pangea doctor health gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-DF9C53: Pangea doctor and jossue-portfolio validation
+- [qa/PASS/VERIFIED] QA-20260729-06FE38: jossue-portfolio project evidence integration gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-E5AB1E: portfolio project screenshots, links, footer and charts QA
+- [qa/PASS/VERIFIED] QA-20260729-9EC4D5: jossue-portfolio web-architect icon and geometry gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-C2B344: jossue-portfolio icon and rectilinear UI QA
+- [evidence/OBSERVED/VERIFIED] EVD-20260729-7BA7B5: jossue-portfolio bootstrap discovery snapshot
+- [qa/PASS/VERIFIED] QA-20260728-717953: jossue-portfolio commercial editorial redesign gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-9AD88E: jossue-portfolio commercial redesign visual review
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-05C9B8: jossue-portfolio commercial redesign validation
+- [qa/PASS/VERIFIED] QA-20260728-6A8957: jossue-portfolio final visual and responsive gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-C0A391: jossue-portfolio final visual review
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-F20AA7: jossue-portfolio expanded responsive browser QA
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-197C26: jossue-portfolio final validation
+- [risk/OPEN/VERIFIED] RISK-20260728-E28F33: MIAWSEO screenshot attribution unresolved
+- [qa/PASS/VERIFIED] QA-20260728-5289EA: jossue-portfolio post-redesign validation
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-211708: jossue-portfolio post-redesign static QA
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-D08442: jossue-portfolio deterministic browser QA
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-2FB752: jossue-portfolio browser QA blocked
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-C0AEFF: vineria interaction tests
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-664B81: jossue-portfolio static routes and links
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-EA0C12: jossue-portfolio production build
+

@@ -1,0 +1,42 @@
+{
+  "id": "QA-20260730-8E2BFA",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "AHP+ portfolio case validation",
+  "description": "",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-30T03:07:30.000Z",
+  "updated_at": "2026-07-30T03:07:30.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260730-C94A1D"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "npm-run-validate",
+    "astro-check",
+    "playwright",
+    "responsive",
+    "ahp-plus"
+  ],
+  "commands": [
+    {
+      "command": "npm run validate",
+      "cwd": "jossue-portfolio",
+      "exit_code": 0,
+      "result": "PASS: astro check 0 errors, 0 warnings, 0 hints; eslint passed; astro build generated 31 pages; route test verified 29 static routes plus robots and sitemap; link test verified 535 local links across 31 HTML files; Playwright passed 176/176 tests."
+    },
+    {
+      "command": "curl -I http://192.168.100.110:4321/es/trabajo/ahp-plus/",
+      "cwd": "jossue-portfolio",
+      "exit_code": 0,
+      "result": "PASS: local network server returned HTTP/1.1 200 OK for the AHP+ case route."
+    }
+  ],
+  "limitations": "PUBLIC_SITE_URL was not set during validation, so Astro used the existing portfolio.invalid fallback. The dev server is local network only."
+}

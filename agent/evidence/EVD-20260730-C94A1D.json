@@ -1,0 +1,32 @@
+{
+  "id": "EVD-20260730-C94A1D",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "AHP+ project integrated into portfolio",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-30T03:07:30.000Z",
+  "updated_at": "2026-07-30T03:07:30.000Z",
+  "observed_at": "2026-07-30T03:07:30.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "web-architect",
+    "portfolio",
+    "ahp-plus",
+    "case-study",
+    "owned-product"
+  ],
+  "evidence_type": "file",
+  "locator": "jossue-portfolio/src/content.config.ts; jossue-portfolio/src/data/casePresentation.ts; jossue-portfolio/src/components/ProjectVisual.astro; jossue-portfolio/src/components/PageView.astro; jossue-portfolio/tests/site.spec.ts; jossue-portfolio/test-results/ahp-plus-home-card-mobile-focused.png; jossue-portfolio/test-results/ahp-plus-case-mobile.png",
+  "result": "PASS: Added AHP+ as a published bilingual owned-product case with human commercial narrative, authorship, scope, deliverables, stack, diagrams, media plan, product card cover, selected-home placement, and test coverage.",
+  "limitations": "No commit, push, deploy, patent, trademark, or external publication was performed.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

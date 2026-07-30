@@ -1,0 +1,32 @@
+{
+  "id": "EVD-20260730-6F2C91",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Product card carousel and heading alignment updates",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-30T03:52:31.000Z",
+  "updated_at": "2026-07-30T03:52:31.000Z",
+  "observed_at": "2026-07-30T03:52:31.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "portfolio",
+    "carousel",
+    "brand-strip",
+    "section-heading",
+    "mobile"
+  ],
+  "evidence_type": "file",
+  "locator": "jossue-portfolio/src/styles/redesign.css; jossue-portfolio/src/styles/global.css; jossue-portfolio/tests/site.spec.ts; jossue-portfolio/test-results/product-carousel-home-mobile.png; jossue-portfolio/test-results/product-carousel-work-mobile.png; jossue-portfolio/test-results/brand-strip-centered-mobile.png",
+  "result": "PASS: Product cards render in horizontal scroll-snap carousels, brand logos are centered, and section headings place the eyebrow above the left-aligned title with consistent spacing.",
+  "limitations": "Local network verification only; no deployment or publishing was performed.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

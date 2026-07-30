@@ -1,0 +1,52 @@
+{
+  "id": "HOF-20260730-C8F8B3",
+  "kind": "handoff",
+  "from": "Codex",
+  "to": "next-agent",
+  "project_id": "jossue-portfolio",
+  "objective": "Product cards widened with responsive covers and compact summaries",
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "branch": "main",
+  "working_tree": "DIRTY",
+  "completed": [],
+  "in_progress": [],
+  "pending": [],
+  "decisions": [],
+  "validations": [
+    "QA-20260730-C5D9E0",
+    "QA-20260730-3A8F52",
+    "QA-20260730-B7E24A",
+    "QA-20260730-57AC1E",
+    "QA-20260730-D2B6A9",
+    "QA-20260730-8E2BFA",
+    "QA-20260730-4C97E1",
+    "QA-20260730-6716A3",
+    "QA-20260729-64DE22",
+    "QA-20260729-B75E2A",
+    "QA-20260729-129E84",
+    "QA-20260729-5E7BB1",
+    "QA-20260729-06FE38",
+    "QA-20260729-9EC4D5",
+    "QA-20260728-717953",
+    "QA-20260728-6A8957",
+    "QA-20260728-5289EA"
+  ],
+  "risks": [
+    "RISK-20260728-E28F33"
+  ],
+  "next_action": "Review http://192.168.100.110:4321/es/ on mobile, focusing on the wider product cards, responsive covers and compact project descriptions.",
+  "done_criteria": [],
+  "notes": "jossue-portfolio committed for handoff after validated portfolio redesign, AHP+ case integration, product card carousel refinements, responsive covers and compact summaries. Latest validation: npm run validate passed 184/184 Playwright tests; local server available at http://192.168.100.110:4321/es/.",
+  "created_at": "2026-07-30T04:17:13.820Z",
+  "receiver_preflight": [
+    "Verify repository root",
+    "Read agent/MANIFEST.json and CURRENT_STATE.json",
+    "Compare branch and base_commit",
+    "Inspect working tree",
+    "Run /agent verify"
+  ],
+  "integrity": {
+    "algorithm": "sha256",
+    "digest": "b347f2eab43bc6e6d16c10707aeedfd359c428c96841adfb69757540c9a36154"
+  }
+}

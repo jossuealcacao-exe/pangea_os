@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-E90A60",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Portfolio hero carousel, brand covers, Zappicon UX icons, and diagnostic contact graphics",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T19:50:31.481Z",
+  "updated_at": "2026-07-29T19:50:31.481Z",
+  "observed_at": "2026-07-29T19:50:31.481Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "cd jossue-portfolio && npm run validate; Playwright screenshots test-results/mobile-profile.png, test-results/mobile-ux.png, test-results/mobile-dev.png, test-results/desktop-home.png, test-results/desktop-projects.png; npx astro dev --host 0.0.0.0 --port 4321 --background; curl -I http://192.168.100.110:4321/es/",
+  "result": "PASS: implemented lightweight home hero carousel with three focus slides (professional profile, ecommerce UX/CRO, web development) using CSS/SVG motion; changed project cards to brand-led covers with project colors, visible real logos where available and typographic marks where no logo asset exists; integrated semantic Zappicon regular icons into hero, capabilities, diagnostics, CTAs, and existing UX controls; replaced generic opportunity map with ecommerce diagnostic graphics for storefront speed, cart drawer, evidence-led UX, and operable AI. npm run validate passed: Astro check 0 diagnostics, ESLint passed, build generated 29 pages, route test passed for 29 routes plus robots/sitemap, link test passed for 495 local links, Playwright passed 168/168. LAN server restarted and http://192.168.100.110:4321/es/ returned 200 OK.",
+  "limitations": "PUBLIC_SITE_URL was unset, so Astro used portfolio.invalid fallback in validation. MIAWSEO, Vineria, and Casa Tecalli did not have dedicated logo assets in the repository, so covers use typographic project marks instead of invented logos. Mobile validation still requires phone and Mac on the same LAN.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

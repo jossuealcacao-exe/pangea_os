@@ -1,0 +1,41 @@
+{
+  "id": "QA-20260730-D2B6A9",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "AHP+ breadcrumb and diagram validation",
+  "description": "",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-30T03:18:52.000Z",
+  "updated_at": "2026-07-30T03:18:52.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260730-F1D7B3"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "npm-run-validate",
+    "playwright",
+    "responsive",
+    "ahp-plus"
+  ],
+  "commands": [
+    {
+      "command": "npm run validate",
+      "cwd": "jossue-portfolio",
+      "exit_code": 0,
+      "result": "PASS: astro check 0 errors, 0 warnings, 0 hints; eslint passed; astro build generated 31 pages; route test verified 29 static routes plus robots and sitemap; link test verified 535 local links across 31 HTML files; Playwright passed 176/176 tests."
+    },
+    {
+      "command": "Playwright visual metrics for /es/trabajo/ahp-plus/",
+      "cwd": "jossue-portfolio",
+      "exit_code": 0,
+      "result": "PASS: breadcrumb first link and current page both measured 44px high; AHP+ signals section contained 0 percent symbols after converting diagrams to flow cards."
+    }
+  ],
+  "limitations": "PUBLIC_SITE_URL was not set during validation, so Astro used the existing portfolio.invalid fallback. The dev server is local network only."
+}

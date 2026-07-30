@@ -1,0 +1,35 @@
+{
+  "id": "REQ-20260729-8C3A11",
+  "kind": "requirement",
+  "project_id": "jossue-portfolio",
+  "title": "Generate photographic assets for each home hero carousel slide",
+  "description": "ChatGPT or another image model should use the canonical note at agent/projects/jossue-portfolio/hero-slide-photo-generation-note.md to interpret each home hero slide and generate photographic hero assets with recommended desktop, tablet, and mobile sizes.",
+  "status": "COMPLETED",
+  "confidence": "USER_CONFIRMED",
+  "created_at": "2026-07-29T21:25:00.000Z",
+  "updated_at": "2026-07-30T02:24:59.280Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "agent/projects/jossue-portfolio/hero-slide-photo-generation-note.md",
+    "jossue-portfolio/src/components/HeroCarousel.astro"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "hero",
+    "image-generation",
+    "chatgpt",
+    "photo-assets"
+  ],
+  "closed_at": "2026-07-30T02:24:59.280Z",
+  "closed_by": {
+    "name": "AI agent",
+    "platform": "unknown",
+    "model": "unknown"
+  },
+  "close_base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "close_reason": "Generated and integrated six responsive hero carousel photo assets from the canonical image-generation note; QA passed."
+}

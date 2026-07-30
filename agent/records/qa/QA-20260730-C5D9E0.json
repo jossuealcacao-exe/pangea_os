@@ -1,0 +1,47 @@
+{
+  "id": "QA-20260730-C5D9E0",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "Product card width, cover responsiveness and summary compactness validation",
+  "description": "",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-30T04:07:07.000Z",
+  "updated_at": "2026-07-30T04:07:07.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260730-82A6C1"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "npm-run-validate",
+    "playwright",
+    "responsive",
+    "visual-qa"
+  ],
+  "commands": [
+    {
+      "command": "Playwright visual measurement for /es/ at 428px",
+      "cwd": "jossue-portfolio",
+      "exit_code": 0,
+      "result": "PASS: First product card measured 368px wide in a 428px viewport; cover measured 366px inside the card, page overflow was false, carousel remained scrollable, and summary clamp was 3 lines."
+    },
+    {
+      "command": "npm run validate",
+      "cwd": "jossue-portfolio",
+      "exit_code": 0,
+      "result": "PASS: astro check 0 errors, 0 warnings, 0 hints; eslint passed; astro build generated 31 pages; route test verified 29 static routes plus robots and sitemap; link test verified 535 local links across 31 HTML files; Playwright passed 184/184 tests."
+    },
+    {
+      "command": "curl -I http://192.168.100.110:4321/es/",
+      "cwd": "jossue-portfolio",
+      "exit_code": 0,
+      "result": "PASS: Local network dev server responded HTTP/1.1 200 OK."
+    }
+  ],
+  "limitations": "PUBLIC_SITE_URL was not set during validation, so Astro used the existing portfolio.invalid fallback. The server is local network only."
+}

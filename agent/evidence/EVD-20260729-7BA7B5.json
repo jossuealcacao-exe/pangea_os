@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-7BA7B5",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "jossue-portfolio bootstrap discovery snapshot",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T01:11:41.474Z",
+  "updated_at": "2026-07-29T01:11:41.474Z",
+  "observed_at": "2026-07-29T01:11:41.474Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "command",
+  "locator": "Pangea bootstrap discovery: package.json, astro.config.mjs, git status, project profile",
+  "result": "Astro 7.1.1 static TypeScript portfolio detected; branch master at 27c65a965a7565d9f53d19cc251a4b6daa57d061; working tree DIRTY with 25 modified tracked files and untracked portfolio assets/content/scripts.",
+  "limitations": "Read-only bootstrap discovery only; no npm validation rerun against the current dirty portfolio tree.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

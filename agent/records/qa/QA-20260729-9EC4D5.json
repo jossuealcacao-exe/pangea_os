@@ -1,0 +1,21 @@
+{
+  "id": "QA-20260729-9EC4D5",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "jossue-portfolio web-architect icon and geometry gate",
+  "description": "Official/local stack icons, straight UI geometry, and active tab typography validated by static checks, build, routes/links, full e2e suite, and Playwright computed visual checks.",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T01:29:06.915Z",
+  "updated_at": "2026-07-29T01:29:06.915Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260729-C2B344"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": []
+}

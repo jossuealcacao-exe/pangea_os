@@ -1,0 +1,28 @@
+{
+  "id": "EVD-20260729-DC91F0",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Hero slide photo generation note created",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T21:25:05.000Z",
+  "updated_at": "2026-07-29T21:25:05.000Z",
+  "observed_at": "2026-07-29T21:25:05.000Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "REQ-20260729-8C3A11"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "file",
+  "locator": "agent/projects/jossue-portfolio/hero-slide-photo-generation-note.md",
+  "result": "PASS: Created a canonical AHP+ project note for ChatGPT image generation with prompts for the three home hero carousel slides, global quality rules, safe overlay guidance, and recommended master/export/mobile sizes.",
+  "limitations": "The note enables future image generation but does not create or integrate image files yet.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

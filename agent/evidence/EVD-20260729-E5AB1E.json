@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260729-E5AB1E",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "portfolio project screenshots, links, footer and charts QA",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T01:58:34.536Z",
+  "updated_at": "2026-07-29T01:58:34.536Z",
+  "observed_at": "2026-07-29T01:58:34.536Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "Captured live/sandbox project screenshots for builder.bloqio.app, bloqio.app, bloqio-sandbox.myshopify.com, michimuseum.com, and vineria.up.railway.app; then ran cd jossue-portfolio && npm run check && npm run lint && npm run build && npm run test:routes && npm run test:links && npm run test:e2e",
+  "result": "PASS: captured and inserted 14 updated screenshots across Bloqio Builder, Bloqio CRO Apps, Casa Tecalli, MIAWSEO, and Vineria; added PageSpeed/LCP diagrams for La Carniceria Virtual; added project repo/live/reference links; added home opportunity graphics; redesigned footer with SEO/GEO tags, social profiles, and contact info; verified active case tab state is aligned, transparent, font-weight 800, transform none; Astro check 0 diagnostics; ESLint passed; build generated 29 pages; route test passed for 29 routes plus robots/sitemap; link test passed for 487 local links; Playwright e2e passed 168/168.",
+  "limitations": "PUBLIC_SITE_URL was unset, so local builds used portfolio.invalid fallback. Casa Tecalli was captured from a password-protected Shopify sandbox with user-provided storefront password and demo catalog data. Bloqio Builder repo remains private, so public links point to live Builder and Bloqio site. Pre-existing dirty worktree changes remain outside this task scope.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

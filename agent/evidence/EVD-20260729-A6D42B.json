@@ -1,0 +1,28 @@
+{
+  "id": "EVD-20260729-A6D42B",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Portfolio mobile feedback polish for hero, covers, profile, footer, and commercial copy",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-29T21:10:00.000Z",
+  "updated_at": "2026-07-29T21:10:00.000Z",
+  "observed_at": "2026-07-29T21:10:00.000Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260729-F4C8D1"
+  ],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "cd jossue-portfolio && npm run validate; Playwright screenshots test-results/mobile-feedback-hero.png, test-results/mobile-feedback-covers.png, test-results/mobile-feedback-commercial-copy.png, test-results/mobile-feedback-profile-fixed-2.png, test-results/mobile-feedback-footer-fixed.png; npx astro dev --host 0.0.0.0 --port 4321 --background; curl -I http://192.168.100.110:4321/es/",
+  "result": "PASS: home hero titles and subtitles were shortened, content was vertically centered, and each SVG slide gained additional lightweight CSS/SVG animation elements. Hero controls now fit within the 573px mobile viewport with three centered thumbnails. Project card covers removed the floating square accent and added lightweight brand-cover animations for gradient, identity, and meter bars. The home profile section now renders as two non-overlapping columns at the reviewed mobile width, with photo plus text. Footer now uses a black background with light text. The diagnostic section copy was rewritten to be more commercial. npm run validate passed: Astro check 0 diagnostics, ESLint passed, build generated 29 pages, route test passed for 29 routes plus robots/sitemap, link test passed for 495 local links, Playwright passed 168/168. LAN server restarted and http://192.168.100.110:4321/es/ returned 200 OK.",
+  "limitations": "PUBLIC_SITE_URL was unset, so Astro used portfolio.invalid fallback in validation. Motion was validated through CSS and screenshots; phone touch review still requires the phone and Mac on the same LAN.",
+  "artifact_sha256": null,
+  "exit_code": null
+}

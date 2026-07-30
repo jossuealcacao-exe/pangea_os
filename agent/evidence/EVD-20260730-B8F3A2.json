@@ -1,0 +1,32 @@
+{
+  "id": "EVD-20260730-B8F3A2",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Home hero, selected work and header refinements",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-30T02:58:13.000Z",
+  "updated_at": "2026-07-30T02:58:13.000Z",
+  "observed_at": "2026-07-30T02:58:13.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a8472f2d02e2cba404ba410b5e5f9da507db5dbd",
+  "tags": [
+    "web-architect",
+    "home",
+    "hero-carousel",
+    "mobile",
+    "selected-work"
+  ],
+  "evidence_type": "file",
+  "locator": "jossue-portfolio/src/components/HeroCarousel.astro; jossue-portfolio/src/components/PageView.astro; jossue-portfolio/src/styles/redesign.css; jossue-portfolio/tests/site.spec.ts; jossue-portfolio/test-results/feedback-fullwidth-desktop-final-3.png; jossue-portfolio/test-results/feedback-fullwidth-mobile-hero-final-3.png; jossue-portfolio/test-results/feedback-selected-four-mobile-final.png",
+  "result": "PASS: Hero carousel viewport measured full-width on desktop and mobile; badges moved into the slide content, aligned left, and paired with contextual icons; selected work now features Bloqio Builder, WU Nutrition, MIAWSEO and Vineria; header controls were compacted for mobile and desktop.",
+  "limitations": "Local dev server only; no deploy or publish was performed.",
+  "artifact_sha256": null,
+  "exit_code": null
+}
