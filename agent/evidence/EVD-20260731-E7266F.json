@@ -1,0 +1,30 @@
+{
+  "id": "EVD-20260731-E7266F",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Portfolio redesign: browser verification mobile and desktop",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-31T23:21:15.047Z",
+  "updated_at": "2026-07-31T23:21:15.047Z",
+  "observed_at": "2026-07-31T23:21:15.047Z",
+  "actor": {
+    "platform": "claude-code",
+    "model": "claude-fable-5",
+    "name": "Claude Code"
+  },
+  "source_refs": [],
+  "base_commit": "1c4729a1a4f9da1d7517a76b62bf92163da0e711",
+  "tags": [
+    "redesign",
+    "qa",
+    "visual"
+  ],
+  "evidence_type": "url",
+  "locator": "http://localhost:4321/es/ via Claude Browser pane (375px and 1280px)",
+  "result": "Hero 7s autoplay loop with typewriter and thumb fill; card hover invert with white title; section spy solid chip aligned at 16px, collapses to dot+number on scroll down, disabled on case pages; condensed header with thick centered hamburger; profile 2 columns 45/55 desktop and undistorted photo mobile; KPI suffixes one line; LCV logo visible; services icons; process list one line; dark CTA hover keeps paper color; no console errors",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

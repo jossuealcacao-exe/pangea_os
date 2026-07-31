@@ -1,11 +1,11 @@
 {
   "project_id": "jossue-portfolio",
   "phase": "VERIFIED",
-  "objective": "Portfolio committed for AHP+ handoff",
-  "base_commit": "1e2e989a936cb2a31f339f0c4cdb49a8a196f4f2",
-  "working_tree": "CLEAN",
-  "next_action": "Continue from jossue-portfolio commit 47adced0d8806bcbd8501b27a365c00f9da4e1cc and handoff HOF-20260730-C8F8B3; review http://192.168.100.110:4321/es/ on mobile if visual QA continues.",
-  "updated_at": "2026-07-30T04:18:50.837Z",
+  "objective": "Portfolio redesign committed (motion, CRO copy, chrome)",
+  "base_commit": "1c4729a1a4f9da1d7517a76b62bf92163da0e711",
+  "working_tree": "DIRTY",
+  "next_action": "Push jossue-portfolio master b846819 to origin when approved; then optional visual QA pass on real mobile via http://192.168.100.110:4321/es/. QA receipts: EVD-20260731-F4764B, EVD-20260731-F2FE0B, EVD-20260731-E7266F, EVD-20260731-E57AFD.",
+  "updated_at": "2026-07-31T23:22:09.374Z",
   "confidence": "VERIFIED",
   "blockers": [],
   "active_record_ids": [

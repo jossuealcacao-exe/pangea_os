@@ -1,0 +1,29 @@
+{
+  "id": "EVD-20260731-E57AFD",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Portfolio redesign committed",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-07-31T23:21:49.442Z",
+  "updated_at": "2026-07-31T23:21:49.442Z",
+  "observed_at": "2026-07-31T23:21:49.442Z",
+  "actor": {
+    "platform": "claude-code",
+    "model": "claude-fable-5",
+    "name": "Claude Code"
+  },
+  "source_refs": [],
+  "base_commit": "1c4729a1a4f9da1d7517a76b62bf92163da0e711",
+  "tags": [
+    "redesign",
+    "commit"
+  ],
+  "evidence_type": "commit",
+  "locator": "jossue-portfolio@b84681958099fc2882f481ecf63917e9f51282be (master)",
+  "result": "13 files changed, +937/-206; redesign of home, cases and chrome with motion and CRO copy",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

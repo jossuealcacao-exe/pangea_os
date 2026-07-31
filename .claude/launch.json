@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jossue-portfolio-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "jossue-portfolio", "run", "dev", "--", "--host", "--port", "4321"],
+      "port": 4321,
+      "autoPort": false
+    }
+  ]
+}
