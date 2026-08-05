@@ -1,11 +1,11 @@
 {
   "project_id": "jossue-portfolio",
   "phase": "VERIFIED",
-  "objective": "Portfolio redesign committed (motion, CRO copy, chrome)",
-  "base_commit": "1c4729a1a4f9da1d7517a76b62bf92163da0e711",
+  "objective": "Galleries with iPhone mockups, copy round 1 and CV-complete About committed",
+  "base_commit": "c314ce105b7b4837356a600d9cfe8b6da50df990",
   "working_tree": "DIRTY",
-  "next_action": "Push jossue-portfolio master b846819 to origin when approved; then optional visual QA pass on real mobile via http://192.168.100.110:4321/es/. QA receipts: EVD-20260731-F4764B, EVD-20260731-F2FE0B, EVD-20260731-E7266F, EVD-20260731-E57AFD.",
-  "updated_at": "2026-07-31T23:22:09.374Z",
+  "next_action": "Push jossue-portfolio master b846819+28a4cfb to origin when approved; copy deck round 2 pending user edits in _inputs/copy/COPY-DECK.xlsx; optional real-mobile QA via http://192.168.100.110:4321/es/. Receipts: EVD-20260805-E11DD7, EVD-20260805-169F7E, EVD-20260805-C21C9B.",
+  "updated_at": "2026-08-05T01:27:59.198Z",
   "confidence": "VERIFIED",
   "blockers": [],
   "active_record_ids": [

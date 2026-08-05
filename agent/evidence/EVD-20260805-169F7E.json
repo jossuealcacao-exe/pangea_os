@@ -1,0 +1,30 @@
+{
+  "id": "EVD-20260805-169F7E",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Browser verification: iPhone galleries, copy deck round 1, About CV fix",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T01:27:42.624Z",
+  "updated_at": "2026-08-05T01:27:42.624Z",
+  "observed_at": "2026-08-05T01:27:42.624Z",
+  "actor": {
+    "platform": "claude-code",
+    "model": "claude-fable-5",
+    "name": "Claude Code"
+  },
+  "source_refs": [],
+  "base_commit": "c314ce105b7b4837356a600d9cfe8b6da50df990",
+  "tags": [
+    "galleries",
+    "copy",
+    "visual"
+  ],
+  "evidence_type": "url",
+  "locator": "http://localhost:4321/es/ (375px y 1280px)",
+  "result": "iPhone 17 Pro mockup in gallery and lightbox with badge caption; flat mode for desktop shots; case pages use spy chip instead of chapter menu; diagram full width; folio centered; card peek; 46 copy edits live (nav Proyectos/Sobre mi, hero, KPIs, services, AI, contact, WU bullets); About renders CV summary + skills section, sections 01-07; no console errors",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

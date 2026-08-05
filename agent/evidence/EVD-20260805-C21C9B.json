@@ -1,0 +1,30 @@
+{
+  "id": "EVD-20260805-C21C9B",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Galleries, copy deck and About CV committed",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T01:27:42.707Z",
+  "updated_at": "2026-08-05T01:27:42.707Z",
+  "observed_at": "2026-08-05T01:27:42.707Z",
+  "actor": {
+    "platform": "claude-code",
+    "model": "claude-fable-5",
+    "name": "Claude Code"
+  },
+  "source_refs": [],
+  "base_commit": "c314ce105b7b4837356a600d9cfe8b6da50df990",
+  "tags": [
+    "galleries",
+    "copy",
+    "commit"
+  ],
+  "evidence_type": "commit",
+  "locator": "jossue-portfolio@28a4cfbc3882fb056436ecdc01295f557bf80f33 (master)",
+  "result": "68 files changed, +1431/-809; galleries in iPhone mockups, copy deck tooling, 46 copy edits, About CV complete",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

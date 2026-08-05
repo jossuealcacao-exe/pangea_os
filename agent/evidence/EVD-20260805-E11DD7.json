@@ -1,0 +1,30 @@
+{
+  "id": "EVD-20260805-E11DD7",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Galleries+copy cycle QA: check, build, routes, links",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T01:27:42.529Z",
+  "updated_at": "2026-08-05T01:27:42.529Z",
+  "observed_at": "2026-08-05T01:27:42.529Z",
+  "actor": {
+    "platform": "claude-code",
+    "model": "claude-fable-5",
+    "name": "Claude Code"
+  },
+  "source_refs": [],
+  "base_commit": "c314ce105b7b4837356a600d9cfe8b6da50df990",
+  "tags": [
+    "galleries",
+    "copy",
+    "qa"
+  ],
+  "evidence_type": "command",
+  "locator": "jossue-portfolio: npm run check && build && test:routes && test:links",
+  "result": "0 errors/warnings/hints; 31 pages; 29 routes verified; 595 links verified",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}
