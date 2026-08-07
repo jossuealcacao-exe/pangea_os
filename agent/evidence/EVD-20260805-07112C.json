@@ -1,0 +1,33 @@
+{
+  "id": "EVD-20260805-07112C",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Liquid glass and gallery release deployed",
+  "description": "Cloudflare production release verified through the public custom domain.",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T20:19:42.000Z",
+  "updated_at": "2026-08-05T20:19:42.000Z",
+  "observed_at": "2026-08-05T20:19:42.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    "EVD-20260805-448687"
+  ],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "cloudflare",
+    "production",
+    "liquid-glass",
+    "gallery"
+  ],
+  "evidence_type": "url",
+  "locator": "https://jossuealcala.com/es/trabajo/bloqio-cro-apps/",
+  "result": "Cloudflare Worker version 4955ccf4-eff9-422d-8633-47e8cc5e57ef deployed. Public browser reports blur(24px), horizontal auto overflow with mandatory snap, a scrollable track and box-shadow none on iPhone mockups; public routes returned HTTP 200.",
+  "limitations": "Source changes are deployed but not committed or pushed.",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

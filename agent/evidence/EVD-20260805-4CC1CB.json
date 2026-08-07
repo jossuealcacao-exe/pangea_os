@@ -1,0 +1,34 @@
+{
+  "id": "EVD-20260805-4CC1CB",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "JA favicon and project exploration copy deployed",
+  "description": "The verified favicon and bilingual project-gallery heading were published through Cloudflare.",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-06T00:23:10.000Z",
+  "updated_at": "2026-08-06T00:23:10.000Z",
+  "observed_at": "2026-08-06T00:23:10.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    "EVD-20260805-45710F",
+    "EVD-20260805-12B6DC"
+  ],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "cloudflare",
+    "production",
+    "favicon",
+    "copy"
+  ],
+  "evidence_type": "url",
+  "locator": "https://jossuealcala.com/es/trabajo/la-carniceria-virtual/",
+  "result": "Cloudflare Worker version e6ab7019-f991-4d13-ad87-99c82e5dd875 deployed. Production returns HTTP 200, Explora el proyecto, Explore the project and the JA circle favicon.",
+  "limitations": "Source changes remain uncommitted and unpushed.",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

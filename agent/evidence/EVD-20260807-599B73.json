@@ -1,0 +1,29 @@
+{
+  "id": "EVD-20260807-599B73",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "WhatsApp contact update deployed and verified",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-07T03:19:34.459Z",
+  "updated_at": "2026-08-07T03:19:34.459Z",
+  "observed_at": "2026-08-07T03:19:34.459Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "jossue-portfolio/src/data/contact.ts",
+    "https://jossuealcala.com/es/contacto/"
+  ],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [],
+  "evidence_type": "url",
+  "locator": "https://jossuealcala.com/es/contacto/",
+  "result": "Production HTML returned HTTP 200 and exposes +52 33 1632 6710 with https://wa.me/523316326710 after Cloudflare deployment version 333f53bb-e647-4b1f-a123-f23711db5157. Local validation completed with 184/184 Playwright tests passing.",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

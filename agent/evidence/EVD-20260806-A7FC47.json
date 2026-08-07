@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260806-A7FC47",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Production contact form end-to-end test",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-06T00:50:12.510Z",
+  "updated_at": "2026-08-06T00:50:12.510Z",
+  "observed_at": "2026-08-06T00:50:12.510Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "https://jossuealcala.com/api/contact submission 79812ff7-b3dc-4cc2-88b7-9bba52fa6590",
+  "result": "Authorized QA submission returned HTTP success with notified=true; remote D1 query found the same ID, timestamp, test sender and project type. Cloudflare accepted the email notification; mailbox receipt remains user-confirmed.",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

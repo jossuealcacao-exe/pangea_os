@@ -1,0 +1,31 @@
+{
+  "id": "EVD-20260805-448687",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Liquid glass and evidence gallery release QA",
+  "description": "Responsive release gate for the glass header, native horizontal project galleries and shadow-free iPhone mockups.",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T20:19:42.000Z",
+  "updated_at": "2026-08-05T20:19:42.000Z",
+  "observed_at": "2026-08-05T20:19:42.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "liquid-glass",
+    "gallery",
+    "responsive",
+    "e2e"
+  ],
+  "evidence_type": "test",
+  "locator": "jossue-portfolio: npm run validate",
+  "result": "Astro check and lint passed; API and Worker tests passed; 29 routes and 595 links verified; Playwright 184/184 passed across 320px-1440px.",
+  "limitations": "Production deployment remains uncommitted in the nested repository.",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

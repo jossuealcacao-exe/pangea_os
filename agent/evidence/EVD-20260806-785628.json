@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260806-785628",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Cloudflare analytics, GEO and contact email production release",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-06T00:48:33.633Z",
+  "updated_at": "2026-08-06T00:48:33.633Z",
+  "observed_at": "2026-08-06T00:48:33.633Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [],
+  "evidence_type": "url",
+  "locator": "https://jossuealcala.com/healthz",
+  "result": "Cloudflare Worker version 8bc4d85a-d344-434d-a43e-8e414f91aa7e deployed to jossuealcala.com and www; health reports notificationEnabled true; ES, EN, llms.txt, robots and sitemap return HTTP 200; production HTML contains GA4 G-LVEXEJH1YJ and CreativeWork schema.",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

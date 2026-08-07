@@ -1,0 +1,31 @@
+{
+  "id": "EVD-20260805-45710F",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "JA favicon verified locally",
+  "description": "The default Astro icon was replaced by a dependency-free JA monogram inside a black circle.",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-06T00:15:59.000Z",
+  "updated_at": "2026-08-06T00:15:59.000Z",
+  "observed_at": "2026-08-06T00:15:59.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "favicon",
+    "brand",
+    "svg",
+    "qa"
+  ],
+  "evidence_type": "test",
+  "locator": "jossue-portfolio: npm run check && npm run build:production; browser visual review at /favicon.svg",
+  "result": "0 Astro diagnostics; 31 production pages built; JA circle favicon rendered correctly in the local browser.",
+  "limitations": "Verified locally only; production still serves the previous favicon until deployment is approved.",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "EVD-20260805-12B6DC",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Project gallery heading updated",
+  "description": "The shared project-gallery heading now uses a direct exploration CTA in Spanish and English.",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-06T00:19:49.000Z",
+  "updated_at": "2026-08-06T00:19:49.000Z",
+  "observed_at": "2026-08-06T00:19:49.000Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "project-pages",
+    "copy",
+    "bilingual",
+    "qa"
+  ],
+  "evidence_type": "test",
+  "locator": "jossue-portfolio: npm run check; npm run build:production; Playwright project narratives at 390px",
+  "result": "0 Astro diagnostics; 31 production pages built; 9/9 bilingual project narrative tests passed.",
+  "limitations": "Verified locally only; deployment remains pending approval.",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

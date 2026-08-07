@@ -1,0 +1,31 @@
+{
+  "id": "EVD-20260805-37BE66",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Production contact workflow and portfolio QA",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T20:03:49.864Z",
+  "updated_at": "2026-08-05T20:03:49.864Z",
+  "observed_at": "2026-08-05T20:03:49.864Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "qa",
+    "contact",
+    "e2e",
+    "production"
+  ],
+  "evidence_type": "test",
+  "locator": "npm run validate plus live POST /api/contact and authenticated GET /api/submissions",
+  "result": "Astro check clean; lint PASS; 31 pages; API 2/2; Worker 2/2; 29 routes plus robots/sitemap; 595 links; Playwright 184/184; live D1 round-trip PASS and QA record removed",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

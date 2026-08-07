@@ -1,0 +1,31 @@
+{
+  "id": "EVD-20260805-38A0A6",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Cloudflare production deployment",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T20:03:49.784Z",
+  "updated_at": "2026-08-05T20:03:49.784Z",
+  "observed_at": "2026-08-05T20:03:49.784Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "cloudflare",
+    "deploy",
+    "worker",
+    "d1"
+  ],
+  "evidence_type": "url",
+  "locator": "https://jossuealcala.com",
+  "result": "Worker version b389475a-7cbb-44c3-a96e-4797358c4a48 deployed to apex and www custom domains with D1 binding; health and HTTPS returned 200",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

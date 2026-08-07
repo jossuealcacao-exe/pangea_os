@@ -1,0 +1,23 @@
+{
+  "id": "DEC-20260807-A47C38",
+  "kind": "decision",
+  "project_id": "jossue-portfolio",
+  "title": "Promote jossue-portfolio editorial conversion design pattern",
+  "description": "",
+  "status": "ACCEPTED",
+  "confidence": "USER_CONFIRMED",
+  "created_at": "2026-08-07T03:19:06.594Z",
+  "updated_at": "2026-08-07T03:19:06.594Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "jossue-portfolio/docs/DESIGN_SYSTEM.md",
+    "jossue-portfolio/docs/DECISIONS.md",
+    "knowledge/web-architect-os-v2.1/reference/JOSSUE_PORTFOLIO_DESIGN_NURTURING.md"
+  ],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": []
+}

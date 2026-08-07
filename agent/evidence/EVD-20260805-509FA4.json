@@ -1,0 +1,30 @@
+{
+  "id": "EVD-20260805-509FA4",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Contact API unit tests",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T03:46:08.191Z",
+  "updated_at": "2026-08-05T03:46:08.191Z",
+  "observed_at": "2026-08-05T03:46:08.191Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "contact-api",
+    "forms",
+    "validation"
+  ],
+  "evidence_type": "test",
+  "locator": "jossue-portfolio: npm run test:api",
+  "result": "2/2 tests passed: multipart form acceptance, protected query and invalid submission rejection",
+  "limitations": "Local test server with temporary storage",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

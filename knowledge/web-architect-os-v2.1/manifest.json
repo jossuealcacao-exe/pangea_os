@@ -6,7 +6,8 @@
   "owner": "Jossue Alcalá",
   "source_documents": [
     "reference/sources/DESIGN-SYSTEM-VINERIA.md",
-    "reference/MEMORIA_PROYECTO_VINERIA_COMPLETA.md"
+    "reference/MEMORIA_PROYECTO_VINERIA_COMPLETA.md",
+    "reference/JOSSUE_PORTFOLIO_DESIGN_NURTURING.md"
   ],
   "platforms": {
     "claude-code": {

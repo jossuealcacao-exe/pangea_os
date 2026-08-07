@@ -1,0 +1,28 @@
+{
+  "id": "QA-20260805-7E34B4",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "Contact API and form integration gate",
+  "description": "Own endpoint receives validated submissions and exposes an authenticated query endpoint; frontend integration and focused responsive QA passed.",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-05T03:46:14.929Z",
+  "updated_at": "2026-08-05T03:46:14.929Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    "EVD-20260805-509FA4",
+    "EVD-20260805-75E501",
+    "EVD-20260805-ABA3BC"
+  ],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [
+    "contact-api",
+    "forms",
+    "auth",
+    "qa"
+  ]
+}

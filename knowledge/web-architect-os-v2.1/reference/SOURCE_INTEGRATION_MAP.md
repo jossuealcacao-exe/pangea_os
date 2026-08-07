@@ -20,3 +20,10 @@ La fuente original vive íntegra en `reference/sources/DESIGN-SYSTEM-VINERIA.md`
 ## Expansión del SO
 
 Los demás style drivers son generalizaciones añadidas por Web Architect OS. No se presentan como contenido del documento fuente.
+
+## Addendum: jossue-portfolio
+
+`JOSSUE_PORTFOLIO_DESIGN_NURTURING.md` registra un patrón promovido para portafolios
+editoriales orientados a conversión. Conserva la procedencia de sus reglas y separa lo
+transferible (jerarquía, geometría, evidence-first, motion y QA) de lo que no se transfiere
+(marca, activos, datos, contactos, infraestructura y claims del proyecto fuente).

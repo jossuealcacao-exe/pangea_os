@@ -45,16 +45,18 @@
           "TypeScript"
         ],
         "package_name": "jossue-portfolio",
-        "scripts": {
-          "dev": "astro dev",
-          "build": "astro build",
+      "scripts": {
+        "dev": "astro dev",
+        "api": "node --env-file=.env.api api/server.mjs",
+        "build": "astro build",
           "preview": "astro preview",
           "check": "astro check",
           "lint": "eslint .",
-          "test:links": "node scripts/test-links.mjs",
-          "test:routes": "node scripts/test-routes.mjs",
-          "test:e2e": "playwright test --config tests/playwright.config.ts",
-          "validate": "npm run check && npm run lint && npm run build && npm run test:routes && npm run test:links && npm run test:e2e",
+        "test:links": "node scripts/test-links.mjs",
+        "test:routes": "node scripts/test-routes.mjs",
+        "test:api": "node --test api/server.test.mjs",
+        "test:e2e": "playwright test --config tests/playwright.config.ts",
+        "validate": "npm run check && npm run lint && npm run build && npm run test:api && npm run test:routes && npm run test:links && npm run test:e2e",
           "astro": "astro"
         },
         "markers": [
@@ -66,13 +68,13 @@
       "git": {
         "is_git": true,
         "branch": "master",
-        "commit": "47adced0d8806bcbd8501b27a365c00f9da4e1cc",
-        "working_tree": "CLEAN",
+        "commit": "28a4cfbc3882fb056436ecdc01295f557bf80f33",
+        "working_tree": "DIRTY",
         "upstream": "origin/master",
-        "ahead": 1,
+        "ahead": 2,
         "behind": 0
       },
-      "observed_at": "2026-07-30T04:18:20.000Z",
+      "observed_at": "2026-08-05T03:46:23.876Z",
       "confidence": "VERIFIED"
     },
     {

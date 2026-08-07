@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260806-F74CB9",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Portfolio analytics and discoverability QA",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-06T00:46:25.324Z",
+  "updated_at": "2026-08-06T00:46:25.324Z",
+  "observed_at": "2026-08-06T00:46:25.324Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "ecdd38d507ee392a9c55fcf959fba7f847bf51ab",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "jossue-portfolio: npm run validate and npm run build:production",
+  "result": "Astro check and lint passed; 31 pages built; API 2/2, Worker 3/3 and Playwright 184/184 passed; production build contains GA4 G-LVEXEJH1YJ, CreativeWork schema and llms.txt; desktop and mobile browser review had no overflow or console errors.",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}
