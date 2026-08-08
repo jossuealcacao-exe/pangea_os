@@ -1,0 +1,21 @@
+{
+  "id": "QA-20260808-650683",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "Remote blog release workflow gate",
+  "description": "",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-08T22:52:11.543Z",
+  "updated_at": "2026-08-08T22:52:11.543Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260808-8A7E87"
+  ],
+  "base_commit": "0706b5246ef85b9bb6a05c3b4c008c6e6c584998",
+  "tags": []
+}

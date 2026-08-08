@@ -5,11 +5,13 @@
 - Objective: Standalone blog, social moderation, AdSense verification and international role standardization deployed and versioned
 - Confidence: VERIFIED
 - Branch: main
-- Commit: fec83942beeb36672193ee674e98bb24b9520099
+- Commit: 0706b5246ef85b9bb6a05c3b4c008c6e6c584998
 - Working tree: DIRTY
 - Next action: Wait for AdSense Ready status; then create responsive slots, activate a certified CMP and integrate ads only in blog.jossuealcala.com.
 
 ## Active records
+- [qa/PASS/VERIFIED] QA-20260808-650683: Remote blog release workflow gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-8A7E87: Corrective blog configuration passed GitHub Actions
 - [qa/PASS/VERIFIED] QA-20260808-E9A7DE: Standalone blog monetization-ready production gate
 - [evidence/OBSERVED/VERIFIED] EVD-20260808-A77AE1: Standalone blog release committed and pushed
 - [evidence/OBSERVED/VERIFIED] EVD-20260808-C87D6D: Portfolio and independent blog production release
@@ -58,8 +60,3 @@
 - [qa/PASS/VERIFIED] QA-20260730-4C97E1: Home refinements validation
 - [evidence/OBSERVED/VERIFIED] EVD-20260730-B8F3A2: Home hero, selected work and header refinements
 - [qa/PASS/VERIFIED] QA-20260730-6716A3: Hero carousel photo asset QA
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-A91EA8: Hero carousel photographic assets generated and integrated
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-DC91F0: Hero slide photo generation note created
-
-## Warnings
-- /Users/eljochuaxd/Pangea OS/agent/evidence/EVD-20260808-A77AE1.json: unresolved local source_ref jossue-portfolio:8f6edf6
