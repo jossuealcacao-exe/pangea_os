@@ -6,9 +6,9 @@
 - Stack: Astro, TypeScript
 - Status: REGISTERED
 - Git branch: master
-- Git commit: b5bd8f9cd7f06ba1fa59448265e558fa953ff39b
+- Git commit: 261f1d5b3a2de22fe7f97e7f23bcaa94eef02233
 - Working tree: CLEAN
-- Last observed: 2026-08-08T22:52:20.000Z
+- Last observed: 2026-08-08T23:05:15.000Z
 - Confidence: VERIFIED by filesystem scan
 
 ## Commands
@@ -34,8 +34,17 @@
 
 - Astro 7.1.1 static portfolio plus an independent Astro blog deployed at
   `blog.jossuealcala.com` with Cloudflare Worker and D1 social moderation.
-- Commit `b5bd8f9cd7f06ba1fa59448265e558fa953ff39b` is pushed to `origin/master`.
+- Commit `261f1d5b3a2de22fe7f97e7f23bcaa94eef02233` is pushed to `origin/master`.
 - Latest validation receipt: `npm run validate` passed with 7 localized entries, 31 portfolio
   pages, 20 blog pages, 595 links and 192/192 Playwright tests.
-- GitHub Actions run `31282589326` passed content validation, Astro type checks and the
-  production blog build for the corrective commit.
+- GitHub Actions run `31283126052` passed content validation, Astro type checks and the
+  production blog build for the carousel correction.
+
+## Reusable carousel rule
+
+- Editorial sliders must cap their height independently from viewport width; the blog uses
+  `32rem` on desktop and a `16 / 9` ratio through the intermediate range.
+- Display titles must have bounded responsive type, balanced wrapping and a readable line
+  length so long headlines remain inside the image.
+- Contrast belongs to the composition: use directional scrims matched to text placement,
+  then remove image text shadows and overlays when mobile moves copy into a separate surface.

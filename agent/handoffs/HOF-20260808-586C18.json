@@ -1,0 +1,63 @@
+{
+  "id": "HOF-20260808-586C18",
+  "kind": "handoff",
+  "from": "codex",
+  "to": "next-agent",
+  "project_id": "jossue-portfolio",
+  "objective": "Standalone blog, social moderation, AdSense verification and international role standardization deployed and versioned",
+  "base_commit": "a9db1fe2b080845c7e8cc40a4b0ed356467ed901",
+  "branch": "main",
+  "working_tree": "DIRTY",
+  "completed": [],
+  "in_progress": [],
+  "pending": [],
+  "decisions": [
+    "DEC-20260807-A47C38"
+  ],
+  "validations": [
+    "QA-20260808-D72199",
+    "QA-20260808-650683",
+    "QA-20260808-E9A7DE",
+    "QA-20260807-13745F",
+    "QA-20260806-6EEB1D",
+    "QA-20260806-09B155",
+    "QA-20260805-A895EA",
+    "QA-20260805-02BEE6",
+    "QA-20260805-7E34B4",
+    "QA-20260730-C5D9E0",
+    "QA-20260730-3A8F52",
+    "QA-20260730-B7E24A",
+    "QA-20260730-57AC1E",
+    "QA-20260730-D2B6A9",
+    "QA-20260730-8E2BFA",
+    "QA-20260730-4C97E1",
+    "QA-20260730-6716A3",
+    "QA-20260729-64DE22",
+    "QA-20260729-B75E2A",
+    "QA-20260729-129E84",
+    "QA-20260729-5E7BB1",
+    "QA-20260729-06FE38",
+    "QA-20260729-9EC4D5",
+    "QA-20260728-717953",
+    "QA-20260728-6A8957",
+    "QA-20260728-5289EA"
+  ],
+  "risks": [
+    "RISK-20260728-E28F33"
+  ],
+  "next_action": "Wait for AdSense Ready status; then create responsive slots, activate a certified CMP and integrate ads only in blog.jossuealcala.com.",
+  "done_criteria": [],
+  "notes": "Blog home carousel desktop correction is deployed as Cloudflare version cfb33fb8-086f-47a1-a6de-7b8a96d33612 and committed at 261f1d5. Full validation and GitHub Actions run 31283126052 passed. The reusable rule is to cap editorial carousel height independently from viewport width, use 16:9 at intermediate desktop widths, bound display typography and guarantee contrast with directional scrims. Browser visual automation was unavailable because its admin policy check could not be verified; production dimensions and assets were verified through the published CSS and responsive release gates.",
+  "created_at": "2026-08-08T23:05:06.898Z",
+  "receiver_preflight": [
+    "Verify repository root",
+    "Read agent/MANIFEST.json and CURRENT_STATE.json",
+    "Compare branch and base_commit",
+    "Inspect working tree",
+    "Run /agent verify"
+  ],
+  "integrity": {
+    "algorithm": "sha256",
+    "digest": "7b5d375421a8d12586feef415c0caedd22efeb555fad536d9b77fe7231ec62b4"
+  }
+}

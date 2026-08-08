@@ -2,14 +2,18 @@
 
 - Project: jossue-portfolio
 - Phase: COMPLETED
-- Objective: Standalone blog, social moderation, AdSense verification and international role standardization deployed and versioned
+- Objective: Blog home carousel desktop sizing, containment and contrast corrected, deployed and versioned
 - Confidence: VERIFIED
 - Branch: main
-- Commit: 0706b5246ef85b9bb6a05c3b4c008c6e6c584998
+- Commit: a9db1fe2b080845c7e8cc40a4b0ed356467ed901
 - Working tree: DIRTY
 - Next action: Wait for AdSense Ready status; then create responsive slots, activate a certified CMP and integrate ads only in blog.jossuealcala.com.
 
 ## Active records
+- [qa/PASS/VERIFIED] QA-20260808-D72199: Blog home carousel desktop release gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-8500A0: Blog carousel correction committed and remotely validated
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-89B614: Blog carousel production deployment
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-F79F83: Blog carousel responsive release validation
 - [qa/PASS/VERIFIED] QA-20260808-650683: Remote blog release workflow gate
 - [evidence/OBSERVED/VERIFIED] EVD-20260808-8A7E87: Corrective blog configuration passed GitHub Actions
 - [qa/PASS/VERIFIED] QA-20260808-E9A7DE: Standalone blog monetization-ready production gate
@@ -56,7 +60,3 @@
 - [qa/PASS/VERIFIED] QA-20260730-D2B6A9: AHP+ breadcrumb and diagram validation
 - [evidence/OBSERVED/VERIFIED] EVD-20260730-F1D7B3: AHP+ breadcrumb and diagram readability fixes
 - [qa/PASS/VERIFIED] QA-20260730-8E2BFA: AHP+ portfolio case validation
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-C94A1D: AHP+ project integrated into portfolio
-- [qa/PASS/VERIFIED] QA-20260730-4C97E1: Home refinements validation
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-B8F3A2: Home hero, selected work and header refinements
-- [qa/PASS/VERIFIED] QA-20260730-6716A3: Hero carousel photo asset QA

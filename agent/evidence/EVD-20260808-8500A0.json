@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260808-8500A0",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Blog carousel correction committed and remotely validated",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-08T23:04:46.912Z",
+  "updated_at": "2026-08-08T23:04:46.912Z",
+  "observed_at": "2026-08-08T23:04:46.912Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "a9db1fe2b080845c7e8cc40a4b0ed356467ed901",
+  "tags": [],
+  "evidence_type": "commit",
+  "locator": "https://github.com/jossuealcacao-exe/jossue-portfolio/commit/261f1d5b3a2de22fe7f97e7f23bcaa94eef02233",
+  "result": "PASS: commit 261f1d5 pushed to origin/master and GitHub Actions run 31283126052 completed successfully.",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}
