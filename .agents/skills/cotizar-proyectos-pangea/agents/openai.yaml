@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cotizador Pangea"
+  short_description: "Cotizaciones flexibles desde briefs de clientes"
+  default_prompt: "Usa $cotizar-proyectos-pangea para analizar este brief y preparar una cotización editable."

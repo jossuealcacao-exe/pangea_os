@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "catalog_id": "pangea-jossue-mx",
+    "version": "1.0.0",
+    "updated_at": "2026-08-08",
+    "status": "OWNER_APPROVED",
+    "owner_review_required": false,
+    "positioning": "Especialista senior en ecommerce, UX/CRO, desarrollo web, analitica e IA aplicada",
+    "note": "Importes iniciales aprobados por Jossue. El propietario conserva el control final de cada partida y total."
+  },
+  "currency": {
+    "code": "MXN",
+    "locale": "es-MX",
+    "tax_rate": 0.16,
+    "tax_included_by_default": false
+  },
+  "quote_defaults": {
+    "validity_days": 15,
+    "included_revision_rounds": 2,
+    "support_days": 30,
+    "risk_percent": 0.08,
+    "range_low_percent": 0.08,
+    "range_high_percent": 0.15,
+    "payment_schedule_short": [50, 50],
+    "payment_schedule_medium": [40, 30, 30],
+    "payment_schedule_long": [30, 25, 25, 20]
+  },
+  "complexity_multipliers": {
+    "low": 0.85,
+    "standard": 1,
+    "high": 1.35,
+    "very_high": 1.7
+  },
+  "urgency_multipliers": {
+    "normal": 1,
+    "priority": 1.15,
+    "critical": 1.3
+  },
+  "services": {
+    "discovery_scope": {
+      "family": "consultoria",
+      "name": "Diagnostico y definicion de alcance",
+      "base_price_mxn": 8000,
+      "included": [
+        "Revision del brief y objetivos",
+        "Mapa de alcance, riesgos y dependencias",
+        "Recomendacion de arquitectura y fases",
+        "Cotizacion cerrada posterior"
+      ]
+    },
+    "landing_conversion": {
+      "family": "shopify_web",
+      "name": "Landing page orientada a conversion",
+      "base_price_mxn": 24000,
+      "included": [
+        "Descubrimiento breve",
+        "Arquitectura de una pagina",
+        "Diseno responsive",
+        "Desarrollo y formulario principal",
+        "SEO tecnico basico, analitica y despliegue"
+      ]
+    },
+    "corporate_site": {
+      "family": "shopify_web",
+      "name": "Sitio corporativo personalizado",
+      "base_price_mxn": 45000,
+      "included": [
+        "Arquitectura de informacion",
+        "Hasta cinco plantillas de contenido",
+        "Diseno responsive",
+        "Desarrollo, SEO tecnico y analitica base",
+        "Despliegue y documentacion"
+      ]
+    },
+    "editorial_catalog": {
+      "family": "shopify_web",
+      "name": "Sitio editorial o catalogo",
+      "base_price_mxn": 55000,
+      "included": [
+        "Arquitectura editorial o de catalogo",
+        "Plantillas de listado y detalle",
+        "CMS o fuente de contenido acordada",
+        "Busqueda basica y SEO tecnico",
+        "Despliegue y documentacion"
+      ]
+    },
+    "shopify_store_setup": {
+      "family": "shopify_web",
+      "name": "Implementacion de tienda Shopify",
+      "base_price_mxn": 60000,
+      "included": [
+        "Configuracion de tienda y tema base",
+        "Personalizacion visual de plantillas principales",
+        "Pagos, envios, impuestos y dominio",
+        "Carga inicial de hasta 25 productos",
+        "Analitica, QA de compra y lanzamiento"
+      ]
+    },
+    "shopify_custom_theme": {
+      "family": "shopify_web",
+      "name": "Tema Shopify personalizado",
+      "base_price_mxn": 120000,
+      "included": [
+        "Discovery ecommerce y arquitectura",
+        "Sistema visual y plantillas clave",
+        "Desarrollo Liquid responsive",
+        "Configuracion editable en Theme Editor",
+        "Rendimiento, accesibilidad, analitica y QA de compra"
+      ]
+    },
+    "ux_cro_audit": {
+      "family": "ux_cro",
+      "name": "Auditoria UX/CRO ecommerce",
+      "base_price_mxn": 28000,
+      "included": [
+        "Revision de datos disponibles",
+        "Auditoria de navegacion, PDP, PLP, busqueda y carrito",
+        "Hallazgos con evidencia",
+        "Backlog priorizado por impacto y esfuerzo",
+        "Sesion de entrega"
+      ]
+    },
+    "ux_cro_sprint": {
+      "family": "ux_cro",
+      "name": "Sprint de estrategia e implementacion UX/CRO",
+      "base_price_mxn": 48000,
+      "included": [
+        "Diagnostico enfocado",
+        "Hipotesis y solucion prioritaria",
+        "Diseno y desarrollo del alcance acordado",
+        "Instrumentacion de medicion",
+        "QA y lectura inicial"
+      ]
+    },
+    "ecommerce_optimization": {
+      "family": "ecommerce_optimization",
+      "name": "Optimizacion integral de ecommerce",
+      "base_price_mxn": 55000,
+      "included": [
+        "Diagnostico de funnel y experiencia",
+        "Mejoras priorizadas de conversion",
+        "Implementacion en plantillas clave",
+        "Analitica de cambios",
+        "QA y documentacion"
+      ]
+    },
+    "analytics_growth_setup": {
+      "family": "analytics_growth",
+      "name": "Implementacion de analitica y growth",
+      "base_price_mxn": 35000,
+      "included": [
+        "Plan de medicion",
+        "GA4 y GTM",
+        "Eventos y conversiones principales",
+        "Dashboard inicial",
+        "Documentacion y entrega"
+      ]
+    },
+    "ai_automation_prototype": {
+      "family": "ai_automation",
+      "name": "Prototipo de automatizacion con IA",
+      "base_price_mxn": 75000,
+      "included": [
+        "Discovery del proceso",
+        "Diseno de flujo y controles humanos",
+        "Prototipo funcional de un caso de uso",
+        "Integracion principal",
+        "Evaluacion, documentacion y entrega"
+      ]
+    },
+    "web_app_mvp": {
+      "family": "systems",
+      "name": "MVP de aplicacion web",
+      "base_price_mxn": 180000,
+      "included": [
+        "Discovery y arquitectura",
+        "Diseno de flujos principales",
+        "Aplicacion responsive con autenticacion basica",
+        "Base de datos y panel operativo inicial",
+        "Despliegue, QA y documentacion"
+      ]
+    },
+    "custom_business_system": {
+      "family": "systems",
+      "name": "Sistema empresarial a medida",
+      "base_price_mxn": 250000,
+      "included": [
+        "Discovery de procesos y reglas de negocio",
+        "Arquitectura y modelo de datos",
+        "Modulos principales acordados",
+        "Roles, panel y trazabilidad base",
+        "Despliegue, capacitacion y soporte inicial"
+      ]
+    },
+    "shopify_app": {
+      "family": "shopify_apps_systems",
+      "name": "App o sistema integrado con Shopify",
+      "base_price_mxn": 180000,
+      "included": [
+        "Discovery y arquitectura de app",
+        "Autenticacion e integracion Shopify",
+        "Flujo principal y panel basico",
+        "Persistencia, seguridad y observabilidad base",
+        "QA, despliegue y documentacion"
+      ]
+    }
+  },
+  "modules": {
+    "additional_page": {"name": "Pagina o plantilla adicional", "unit_price_mxn": 3500},
+    "advanced_form": {"name": "Formulario avanzado con logica", "unit_price_mxn": 6500},
+    "design_system": {"name": "Sistema de diseno documentado", "unit_price_mxn": 15000},
+    "cms_setup": {"name": "CMS y modelo de contenido", "unit_price_mxn": 14000},
+    "content_copy_page": {"name": "Copy y edicion por pagina", "unit_price_mxn": 2500},
+    "brand_light": {"name": "Direccion visual e identidad ligera", "unit_price_mxn": 14000},
+    "product_batch_25": {"name": "Carga y revision de 25 productos", "unit_price_mxn": 6000},
+    "content_migration_batch_25": {"name": "Migracion de 25 contenidos", "unit_price_mxn": 7500},
+    "technical_seo": {"name": "SEO tecnico ampliado", "unit_price_mxn": 18000},
+    "ga4_gtm_advanced": {"name": "Medicion avanzada GA4/GTM", "unit_price_mxn": 12000},
+    "dashboard": {"name": "Dashboard operativo o ejecutivo", "unit_price_mxn": 28000},
+    "custom_search": {"name": "Busqueda y filtros personalizados", "unit_price_mxn": 18000},
+    "auth_roles": {"name": "Autenticacion avanzada, roles y permisos", "unit_price_mxn": 35000},
+    "payments": {"name": "Integracion de pagos", "unit_price_mxn": 20000},
+    "custom_api": {"name": "Integracion con API externa", "unit_price_mxn": 30000},
+    "data_migration": {"name": "Migracion y limpieza de datos", "unit_price_mxn": 30000},
+    "email_automation": {"name": "Automatizacion de correo o CRM", "unit_price_mxn": 16000},
+    "ai_workflow": {"name": "Flujo adicional con IA", "unit_price_mxn": 35000},
+    "extra_language": {"name": "Idioma adicional por plantilla", "unit_price_mxn": 3500},
+    "shopify_market": {"name": "Mercado o region adicional en Shopify", "unit_price_mxn": 18000},
+    "shopify_function": {"name": "Shopify Function personalizada", "unit_price_mxn": 32000},
+    "theme_app_extension": {"name": "Theme app extension", "unit_price_mxn": 38000},
+    "business_module": {"name": "Modulo de negocio adicional", "unit_price_mxn": 32000},
+    "training_session": {"name": "Sesion de capacitacion adicional", "unit_price_mxn": 5000}
+  }
+}

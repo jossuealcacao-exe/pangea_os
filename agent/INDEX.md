@@ -1,62 +1,21 @@
 # AHP+ Operational Brief
 
-- Project: jossue-portfolio
+- Project: pangea-os
 - Phase: COMPLETED
-- Objective: Blog home carousel desktop sizing, containment and contrast corrected, deployed and versioned
+- Objective: Owner-approved automated quotation skill v1.0.0 with client-safe output and command guide
 - Confidence: VERIFIED
-- Branch: main
-- Commit: a9db1fe2b080845c7e8cc40a4b0ed356467ed901
+- Branch: agent/cotizador-pangea
+- Commit: 60b94f155a3967c8fdf1c1fcae48538fd6a9ff40
 - Working tree: DIRTY
-- Next action: Wait for AdSense Ready status; then create responsive slots, activate a certified CMP and integrate ads only in blog.jossuealcala.com.
+- Next action: Process the first real client brief, review the generated quote with Jossue, and recalibrate after five completed quotations.
 
 ## Active records
-- [qa/PASS/VERIFIED] QA-20260808-D72199: Blog home carousel desktop release gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260808-8500A0: Blog carousel correction committed and remotely validated
-- [evidence/OBSERVED/VERIFIED] EVD-20260808-89B614: Blog carousel production deployment
-- [evidence/OBSERVED/VERIFIED] EVD-20260808-F79F83: Blog carousel responsive release validation
-- [qa/PASS/VERIFIED] QA-20260808-650683: Remote blog release workflow gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260808-8A7E87: Corrective blog configuration passed GitHub Actions
-- [qa/PASS/VERIFIED] QA-20260808-E9A7DE: Standalone blog monetization-ready production gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260808-A77AE1: Standalone blog release committed and pushed
-- [evidence/OBSERVED/VERIFIED] EVD-20260808-C87D6D: Portfolio and independent blog production release
-- [evidence/OBSERVED/VERIFIED] EVD-20260808-F22A03: Standalone blog and portfolio final validation
-- [qa/PASS/VERIFIED] QA-20260807-13745F: WhatsApp contact production release gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260807-599B73: WhatsApp contact update deployed and verified
-- [decision/ACCEPTED/USER_CONFIRMED] DEC-20260807-A47C38: Promote jossue-portfolio editorial conversion design pattern
-- [evidence/OBSERVED/VERIFIED] EVD-20260806-A7FC47: Production contact form end-to-end test
-- [qa/PASS/VERIFIED] QA-20260806-6EEB1D: Cloudflare production analytics and email binding gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260806-785628: Cloudflare analytics, GEO and contact email production release
-- [evidence/OBSERVED/VERIFIED] EVD-20260806-F74CB9: Portfolio analytics and discoverability QA
-- [qa/PASS/VERIFIED] QA-20260806-09B155: Portfolio analytics and discoverability release gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-4CC1CB: JA favicon and project exploration copy deployed
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-12B6DC: Project gallery heading updated
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-45710F: JA favicon verified locally
-- [qa/PASS/VERIFIED] QA-20260805-A895EA: Production glass header and swipe gallery gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-07112C: Liquid glass and gallery release deployed
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-448687: Liquid glass and evidence gallery release QA
-- [qa/PASS/VERIFIED] QA-20260805-02BEE6: Cloudflare production release gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-37BE66: Production contact workflow and portfolio QA
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-38A0A6: Cloudflare production deployment
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-6CD982: Responsive layout and contact identity QA
-- [qa/PASS/VERIFIED] QA-20260805-7E34B4: Contact API and form integration gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-ABA3BC: Contact form responsive QA
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-75E501: Contact API local integration
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-509FA4: Contact API unit tests
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-C21C9B: Galleries, copy deck and About CV committed
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-169F7E: Browser verification: iPhone galleries, copy deck round 1, About CV fix
-- [evidence/OBSERVED/VERIFIED] EVD-20260805-E11DD7: Galleries+copy cycle QA: check, build, routes, links
-- [evidence/OBSERVED/VERIFIED] EVD-20260731-E57AFD: Portfolio redesign committed
-- [evidence/OBSERVED/VERIFIED] EVD-20260731-E7266F: Portfolio redesign: browser verification mobile and desktop
-- [evidence/OBSERVED/VERIFIED] EVD-20260731-F2FE0B: Portfolio redesign QA: build + routes + links
-- [evidence/OBSERVED/VERIFIED] EVD-20260731-F4764B: Portfolio redesign QA: astro check clean
-- [qa/PASS/VERIFIED] QA-20260730-C5D9E0: Product card width, cover responsiveness and summary compactness validation
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-82A6C1: Product cards widened with responsive covers and compact summaries
-- [qa/PASS/VERIFIED] QA-20260730-3A8F52: Product carousel scale and scrollbar validation
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-1D9C4E: Product carousel card scale and scrollbar refinement
-- [qa/PASS/VERIFIED] QA-20260730-B7E24A: Product carousel, brand centering and heading rhythm validation
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-6F2C91: Product card carousel and heading alignment updates
-- [qa/PASS/VERIFIED] QA-20260730-57AC1E: AHP+ logo integration validation
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-A4E8C9: AHP+ logo integrated into portfolio
-- [qa/PASS/VERIFIED] QA-20260730-D2B6A9: AHP+ breadcrumb and diagram validation
-- [evidence/OBSERVED/VERIFIED] EVD-20260730-F1D7B3: AHP+ breadcrumb and diagram readability fixes
-- [qa/PASS/VERIFIED] QA-20260730-8E2BFA: AHP+ portfolio case validation
+- [qa/PASS/VERIFIED] QA-20260808-88C39C: Quotation catalog v1.0.0 release gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-E6F3B4: Approved quotation catalog and client-safe output tests
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-18B479: Quotation skill structure validation
+- [decision/ACCEPTED/USER_CONFIRMED] DEC-20260808-04AE7E: Approve quotation pricing catalog v1.0.0
+- [decision/ACCEPTED/USER_CONFIRMED] DEC-20260808-11D645: Owner-controlled pricing for automated quotations
+- [evidence/OBSERVED/VERIFIED] EVD-20260728-7CDB04: Pangea OS and AHP+ command reference PDF
+- [evidence/OBSERVED/VERIFIED] EVD-20260725-5C60B1: Pangea OS installation
+- [decision/ACCEPTED/USER_CONFIRMED] DEC-20260723-AHP-PLUS: Use AHP+ as the canonical Git-backed state plane
+- [decision/ACCEPTED/USER_CONFIRMED] DEC-20260723-PANGEA-ARCH: Use a platform-neutral kernel with thin native adapters

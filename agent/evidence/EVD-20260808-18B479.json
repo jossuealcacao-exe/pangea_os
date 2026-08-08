@@ -1,0 +1,32 @@
+{
+  "id": "EVD-20260808-18B479",
+  "kind": "evidence",
+  "project_id": "pangea-os",
+  "title": "Quotation skill structure validation",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-08T23:27:19.374Z",
+  "updated_at": "2026-08-08T23:27:19.374Z",
+  "observed_at": "2026-08-08T23:27:19.374Z",
+  "actor": {
+    "platform": "codex",
+    "model": "gpt-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    ".agents/skills/cotizar-proyectos-pangea/agents/openai.yaml",
+    ".agents/skills/cotizar-proyectos-pangea/references/brief-normalizado.schema.json"
+  ],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [
+    "skill",
+    "validation"
+  ],
+  "evidence_type": "test",
+  "locator": ".agents/skills/cotizar-proyectos-pangea/SKILL.md",
+  "result": "PASS: YAML frontmatter and openai interface parsed; JSON references parsed; Node scripts passed syntax checks; no TODO markers.",
+  "limitations": "Official quick_validate.py could not import PyYAML in available Python runtimes; equivalent structural checks were run with Ruby YAML and Node without installing dependencies.",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

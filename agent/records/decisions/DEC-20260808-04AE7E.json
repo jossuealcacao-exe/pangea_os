@@ -1,0 +1,26 @@
+{
+  "id": "DEC-20260808-04AE7E",
+  "kind": "decision",
+  "project_id": "pangea-os",
+  "title": "Approve quotation pricing catalog v1.0.0",
+  "description": "Jossue approved the recommended MXN base prices and module adjustments. The catalog is owner-approved while every client total remains editable and authorization-gated.",
+  "status": "ACCEPTED",
+  "confidence": "USER_CONFIRMED",
+  "created_at": "2026-08-08T23:49:16.880Z",
+  "updated_at": "2026-08-08T23:49:16.880Z",
+  "actor": {
+    "platform": "human",
+    "model": "n/a",
+    "name": "Jossue Alcala"
+  },
+  "source_refs": [
+    "user:approval-2026-08-08",
+    ".agents/skills/cotizar-proyectos-pangea/references/catalogo-precios.json"
+  ],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [
+    "quotations",
+    "pricing",
+    "catalog-v1"
+  ]
+}

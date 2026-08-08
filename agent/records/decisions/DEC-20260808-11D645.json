@@ -1,0 +1,26 @@
+{
+  "id": "DEC-20260808-11D645",
+  "kind": "decision",
+  "project_id": "pangea-os",
+  "title": "Owner-controlled pricing for automated quotations",
+  "description": "Brief classification and calculations may be automated, but market references never override the owner catalog or final client price. Client-ready status requires explicit owner authorization.",
+  "status": "ACCEPTED",
+  "confidence": "USER_CONFIRMED",
+  "created_at": "2026-08-08T23:27:08.488Z",
+  "updated_at": "2026-08-08T23:27:08.488Z",
+  "actor": {
+    "platform": "codex",
+    "model": "gpt-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    ".agents/skills/cotizar-proyectos-pangea/SKILL.md",
+    ".agents/skills/cotizar-proyectos-pangea/references/catalogo-precios.json"
+  ],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [
+    "quotations",
+    "pricing",
+    "owner-control"
+  ]
+}

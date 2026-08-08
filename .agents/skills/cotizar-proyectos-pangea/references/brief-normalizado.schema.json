@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pangea.local/schemas/brief-cotizacion-v1.json",
+  "title": "Brief normalizado para cotizacion Pangea",
+  "type": "object",
+  "required": ["client", "project", "service_id"],
+  "properties": {
+    "client": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string"},
+        "company": {"type": "string"},
+        "market": {"type": "string", "default": "Mexico"}
+      },
+      "additionalProperties": false
+    },
+    "project": {
+      "type": "object",
+      "required": ["name", "objective", "summary"],
+      "properties": {
+        "name": {"type": "string"},
+        "objective": {"type": "string"},
+        "summary": {"type": "string"},
+        "timeline_weeks": {"type": "number", "minimum": 0},
+        "deliverables": {"type": "array", "items": {"type": "string"}},
+        "success_criteria": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "service_id": {"type": "string"},
+    "complexity": {"enum": ["low", "standard", "high", "very_high"], "default": "standard"},
+    "urgency": {"enum": ["normal", "priority", "critical"], "default": "normal"},
+    "modules": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "assumptions": {"type": "array", "items": {"type": "string"}},
+    "exclusions": {"type": "array", "items": {"type": "string"}},
+    "open_questions": {"type": "array", "items": {"type": "string"}},
+    "third_party_costs": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"enum": ["low", "medium", "high"], "default": "medium"},
+    "proposal_stage": {"enum": ["exploratory_estimate", "prequote", "closed_quote"], "default": "prequote"},
+    "owner_controls": {
+      "type": "object",
+      "properties": {
+        "target_total_mxn": {"type": ["number", "null"], "minimum": 0},
+        "adjustment_percent": {"type": "number", "minimum": -100},
+        "risk_percent": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "include_iva": {"type": "boolean"},
+        "authorized_for_client": {"type": "boolean"},
+        "payment_schedule": {
+          "type": "array",
+          "items": {"type": "number", "exclusiveMinimum": 0},
+          "minItems": 2
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

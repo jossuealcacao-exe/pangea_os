@@ -1,0 +1,27 @@
+{
+  "id": "QA-20260808-88C39C",
+  "kind": "qa",
+  "project_id": "pangea-os",
+  "title": "Quotation catalog v1.0.0 release gate",
+  "description": "Owner-approved prices, command guide, deterministic calculations and client-safe Markdown output validated locally.",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-08T23:49:25.015Z",
+  "updated_at": "2026-08-08T23:49:25.015Z",
+  "actor": {
+    "platform": "codex",
+    "model": "gpt-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    "EVD-20260808-E6F3B4",
+    "EVD-20260808-18B479"
+  ],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [
+    "quotations",
+    "skill",
+    "qa",
+    "catalog-v1"
+  ]
+}
