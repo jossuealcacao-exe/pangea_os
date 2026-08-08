@@ -2,14 +2,18 @@
 
 - Project: jossue-portfolio
 - Phase: COMPLETED
-- Objective: Portfolio contact and conversion release deployed, versioned, and promoted as a reusable design pattern
+- Objective: Standalone blog, social moderation, AdSense verification and international role standardization deployed and versioned
 - Confidence: VERIFIED
 - Branch: main
-- Commit: ecdd38d507ee392a9c55fcf959fba7f847bf51ab
+- Commit: fec83942beeb36672193ee674e98bb24b9520099
 - Working tree: DIRTY
-- Next action: Closure complete. Start from the AHP+ handoff before changing the portfolio; revalidate source, permissions, and production before the next release.
+- Next action: Wait for AdSense Ready status; then create responsive slots, activate a certified CMP and integrate ads only in blog.jossuealcala.com.
 
 ## Active records
+- [qa/PASS/VERIFIED] QA-20260808-E9A7DE: Standalone blog monetization-ready production gate
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-A77AE1: Standalone blog release committed and pushed
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-C87D6D: Portfolio and independent blog production release
+- [evidence/OBSERVED/VERIFIED] EVD-20260808-F22A03: Standalone blog and portfolio final validation
 - [qa/PASS/VERIFIED] QA-20260807-13745F: WhatsApp contact production release gate
 - [evidence/OBSERVED/VERIFIED] EVD-20260807-599B73: WhatsApp contact update deployed and verified
 - [decision/ACCEPTED/USER_CONFIRMED] DEC-20260807-A47C38: Promote jossue-portfolio editorial conversion design pattern
@@ -56,7 +60,6 @@
 - [qa/PASS/VERIFIED] QA-20260730-6716A3: Hero carousel photo asset QA
 - [evidence/OBSERVED/VERIFIED] EVD-20260730-A91EA8: Hero carousel photographic assets generated and integrated
 - [evidence/OBSERVED/VERIFIED] EVD-20260729-DC91F0: Hero slide photo generation note created
-- [qa/PASS/VERIFIED] QA-20260729-64DE22: Portfolio mobile visual polish gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-A6D42B: Portfolio mobile feedback polish for hero, covers, profile, footer, and commercial copy
-- [qa/PASS/VERIFIED] QA-20260729-B75E2A: Portfolio mobile feedback revision gate
-- [evidence/OBSERVED/VERIFIED] EVD-20260729-F4C8D1: Portfolio hero gallery, logo-only product covers, and capability icon correction
+
+## Warnings
+- /Users/eljochuaxd/Pangea OS/agent/evidence/EVD-20260808-A77AE1.json: unresolved local source_ref jossue-portfolio:8f6edf6

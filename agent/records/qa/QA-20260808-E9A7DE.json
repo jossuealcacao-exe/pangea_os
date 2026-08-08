@@ -1,0 +1,23 @@
+{
+  "id": "QA-20260808-E9A7DE",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "Standalone blog monetization-ready production gate",
+  "description": "Code, content, responsive behavior, production infrastructure, moderation boundaries, AdSense verification and Git synchronization passed the release gate.",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-08T22:45:16.834Z",
+  "updated_at": "2026-08-08T22:45:16.834Z",
+  "actor": {
+    "platform": "Codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    "EVD-20260808-F22A03",
+    "EVD-20260808-C87D6D",
+    "EVD-20260808-A77AE1"
+  ],
+  "base_commit": "fec83942beeb36672193ee674e98bb24b9520099",
+  "tags": []
+}
