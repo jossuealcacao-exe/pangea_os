@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260811-1BCD86",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Full local portfolio validation after SEO and GA4 correction",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-11T02:46:42.210Z",
+  "updated_at": "2026-08-11T02:46:42.210Z",
+  "observed_at": "2026-08-11T02:46:42.210Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "npm run validate",
+  "result": "PASS: blog validation and build, Astro check, ESLint, portfolio build, 2 API tests, 4 Worker tests, 4 social tests, 29 routes, 595 local links, and 192 responsive Playwright tests",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

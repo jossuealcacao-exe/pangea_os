@@ -1,0 +1,21 @@
+{
+  "id": "QA-20260811-7CF476",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "Production-configured SEO and GA4 local transport gate",
+  "description": "",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-11T02:46:55.192Z",
+  "updated_at": "2026-08-11T02:46:55.192Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260811-275004"
+  ],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": []
+}

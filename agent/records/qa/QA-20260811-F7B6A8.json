@@ -1,0 +1,21 @@
+{
+  "id": "QA-20260811-F7B6A8",
+  "kind": "qa",
+  "project_id": "jossue-portfolio",
+  "title": "Production SEO canonicalization and analytics release gate",
+  "description": "",
+  "status": "PASS",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-11T03:00:12.191Z",
+  "updated_at": "2026-08-11T03:00:12.191Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [
+    "EVD-20260811-71FB90"
+  ],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": []
+}

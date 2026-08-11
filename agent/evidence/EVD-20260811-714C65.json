@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260811-714C65",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Cloudflare deployment of root redirect and GA4 correction",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-11T03:00:00.854Z",
+  "updated_at": "2026-08-11T03:00:00.854Z",
+  "observed_at": "2026-08-11T03:00:00.854Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [],
+  "evidence_type": "command",
+  "locator": "npm run deploy",
+  "result": "PASS: jossue-portfolio deployed to workers.dev, jossuealcala.com and www.jossuealcala.com; Cloudflare Version ID 3a600c1c-7966-4155-9231-4310bff597a4",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": 0
+}

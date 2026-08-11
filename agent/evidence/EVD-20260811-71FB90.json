@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260811-71FB90",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Production root, sitemap and GA4 transport verification",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-11T03:00:05.884Z",
+  "updated_at": "2026-08-11T03:00:05.884Z",
+  "observed_at": "2026-08-11T03:00:05.884Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [],
+  "evidence_type": "url",
+  "locator": "https://jossuealcala.com/",
+  "result": "PASS: apex and www roots return bodyless 302 responses with Vary Accept-Language; en, es and default targets are correct; /es/ and /en/ return 200; sitemap has 30 localized URLs and excludes root; healthz returns 200; consent loads gtag.js 200 and emits GA4 page_view to G-LVEXEJH1YJ",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": null
+}

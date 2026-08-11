@@ -1,0 +1,30 @@
+{
+  "id": "BUG-20260811-66E092",
+  "kind": "bug",
+  "project_id": "jossue-portfolio",
+  "title": "Root canonicalization and GA4 delivery are defective",
+  "description": "The static Astro root exposes a visible meta-refresh page and conflicting sitemap signal; language negotiation is absent. Separately, the GA4 wrapper does not emit collection requests after consent. Proposed correction: Worker-first handling for root and www canonical redirects, exclude root from sitemap, use the official gtag arguments queue, and add HTTP plus analytics transport regression tests.",
+  "status": "COMPLETED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-11T02:39:37.622Z",
+  "updated_at": "2026-08-11T03:00:12.268Z",
+  "actor": {
+    "platform": "codex",
+    "model": "GPT-5",
+    "name": "Codex"
+  },
+  "source_refs": [
+    "EVD-20260811-C5B04E",
+    "EVD-20260811-FBCC9B"
+  ],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [],
+  "closed_at": "2026-08-11T03:00:12.268Z",
+  "closed_by": {
+    "name": "AI agent",
+    "platform": "unknown",
+    "model": "unknown"
+  },
+  "close_base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "close_reason": "Commit 50f731d was pushed and Cloudflare version 3a600c1c-7966-4155-9231-4310bff597a4 was verified in production: root redirects, sitemap signals and GA4 page_view transport all pass."
+}

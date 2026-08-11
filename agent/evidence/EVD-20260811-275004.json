@@ -1,0 +1,26 @@
+{
+  "id": "EVD-20260811-275004",
+  "kind": "evidence",
+  "project_id": "jossue-portfolio",
+  "title": "Local SEO redirect and analytics production-build validation",
+  "description": "",
+  "status": "OBSERVED",
+  "confidence": "VERIFIED",
+  "created_at": "2026-08-11T02:46:36.990Z",
+  "updated_at": "2026-08-11T02:46:36.990Z",
+  "observed_at": "2026-08-11T02:46:36.990Z",
+  "actor": {
+    "platform": "unknown",
+    "model": "unknown",
+    "name": "AI agent"
+  },
+  "source_refs": [],
+  "base_commit": "60b94f155a3967c8fdf1c1fcae48538fd6a9ff40",
+  "tags": [],
+  "evidence_type": "test",
+  "locator": "PUBLIC_SITE_URL=https://jossuealcala.com PUBLIC_GA4_ID=G-LVEXEJH1YJ npm run build; npm run test:routes; Playwright consent transport probe",
+  "result": "PASS: production-configured build and 29-route gate passed; root absent from sitemap; consent produced one GA4 g/collect request with js, config and event commands in the gtag arguments format",
+  "limitations": "",
+  "artifact_sha256": null,
+  "exit_code": 0
+}
